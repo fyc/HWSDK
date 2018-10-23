@@ -582,57 +582,6 @@ public class RegisterViewController extends BaseAuthViewController {
         updateRegisterButtonState();
     }
 
-    private class ReGetVerifyCodeButtonController {
-        TextView textView;
-
-        public ReGetVerifyCodeButtonController(TextView textView) {
-            this.textView = textView;
-        }
-
-        public void prepare() {
-            ViewUtils.setViewEnable(textView, false);
-        }
-
-        private CountDownTimer timer;
-
-        public void startCountDown() {
-            if (timer != null) {
-                return;
-            }
-            timer = new CountDownTimer(60 * 1000l, 1000l) {
-                @Override
-                public void onTick(long millisUntilFinished) {
-                    if (textView.getVisibility() == VISIBLE){
-                        int sec = (int) (millisUntilFinished / 1000l);
-                        textView.setText(ResourceHelper.getString(R.string.re_get_verification_fmt, sec));
-                    }
-                }
-
-                @Override
-                public void onFinish() {
-                    timer = null;
-                    textView.setText(ResourceHelper.getString(R.string.re_get_verification));
-                    ViewUtils.setViewEnable(textView, true);
-                }
-            };
-            timer.start();
-        }
-
-        public void cancelCountDown() {
-            if (timer != null) {
-                timer.cancel();
-                timer = null;
-                textView.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        textView.setText(ResourceHelper.getString(R.string.re_get_verification));
-                        ViewUtils.setViewEnable(textView, true);
-                    }
-                });
-            }
-        }
-
-    }
 
     /*
     * 监听短信数据库

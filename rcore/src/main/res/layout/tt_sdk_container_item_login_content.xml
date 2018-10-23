@@ -37,7 +37,7 @@
             android:maxLines="1"
             android:imeOptions="actionNext|flagNoExtractUi" />
         <Button
-            android:id="@+id/btn_register_login_get_verification_code"
+            android:id="@+id/btn_login_container_get_verification_code"
             android:background="@drawable/tt_sdk_selector_right_btn"
             android:text="@string/request_get_verification_code"
             android:textSize="@dimen/right_btn_str_size"

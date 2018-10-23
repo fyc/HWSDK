@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.yiyou.gamesdk.R;
 import com.yiyou.gamesdk.core.api.ApiFacade;
+import com.yiyou.gamesdk.core.api.def.IAuthApi;
 import com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener;
 import com.yiyou.gamesdk.core.consts.StatusCodeDef;
 import com.yiyou.gamesdk.core.ui.dialog.ViewControllerNavigator;
@@ -26,6 +27,7 @@ import com.mobilegamebar.rsdk.outer.util.Log;
 import com.mobilegamebar.rsdk.outer.util.ResourceHelper;
 import com.mobilegamebar.rsdk.outer.util.StringUtils;
 import com.yiyou.gamesdk.util.IMEUtil;
+import com.yiyou.gamesdk.util.ToastUtils;
 import com.yiyou.gamesdk.util.ViewUtils;
 
 import java.util.ArrayList;
@@ -47,17 +49,23 @@ public class LoginViewController extends BaseAuthViewController {
 
     private Button loginButton;
     private View backRegisterButton;
-    private View resetPasswordBtn;
+//    private View resetPasswordBtn;
+    private EditText verificationCodeEdit;
+    private Button getVerificationCodeButton;
     private View titleImg;
     private TextView titleTv;
     private DrawableEditText accountEdit;
-    private EditText passwordEdit;
+//    private EditText passwordEdit;
     private TextView backTitleContainerBtn;
     private TextView closeTitleContainerBtn;
 
 
     private AccountEditViewController accountEditViewController;
     private HistoryPickerController historyPickerController;
+
+    private int retryTime = 0;
+    private boolean waitingVerifyCode = false;
+    ReGetVerifyCodeButtonController reGetVerifyCodeButtonController;
     //自动填账号/手机号 缓存.
     private String autoFillCache = "";
 
@@ -95,6 +103,11 @@ public class LoginViewController extends BaseAuthViewController {
         accountEditViewController.noRightDrawableSate();
         historyPickerController = new HistoryPickerController(accountEdit);
 //        passwordEdit = (EditText) findViewById(R.id.edit_login_container_password);
+        verificationCodeEdit = (EditText) findViewById(R.id.edit_login_container_verification_code);
+        getVerificationCodeButton = (Button) findViewById(R.id.btn_login_container_get_verification_code);
+        ViewUtils.setViewEnable(getVerificationCodeButton, false);
+        reGetVerifyCodeButtonController = new ReGetVerifyCodeButtonController(getVerificationCodeButton);
+
         backTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_back);
         closeTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_close);
         backTitleContainerBtn.setVisibility(GONE);
@@ -126,13 +139,12 @@ public class LoginViewController extends BaseAuthViewController {
                 if (!blankHit) {
                     if (StringUtils.isBlank(str)) {
                         blankHit = true;
-                    } else if (!str.endsWith(autoFillCache)) {
-                        passwordEdit.setText("");
                     }
                 } else {
                     blankHit = false;
                 }
                 ViewUtils.setViewEnable(loginButton, accountEdit.length() != 0);
+                ViewUtils.setViewEnable(getVerificationCodeButton, accountEdit.length() != 0);
             }
         });
 
@@ -232,7 +244,7 @@ public class LoginViewController extends BaseAuthViewController {
             @Override
             public void onClick(View view) {
                 IMEUtil.hideIME(LoginViewController.this);
-                loginImpl(accountEdit.getText().toString(), passwordEdit.getText().toString());
+//                loginImpl(accountEdit.getText().toString(), passwordEdit.getText().toString());
             }
         });
         backRegisterButton.setOnClickListener(new OnClickListener() {
@@ -242,17 +254,38 @@ public class LoginViewController extends BaseAuthViewController {
                 ViewControllerNavigator.getInstance().toRegister(getDialogParam());
             }
         });
-        resetPasswordBtn.setOnClickListener(new OnClickListener() {
+//        resetPasswordBtn.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                IMEUtil.hideIME(LoginViewController.this);
+//                ViewControllerNavigator.getInstance().toResetPassword(getDialogParam());
+//            }
+//        });
+//        ViewUtils.bindEditWithButton(passwordEdit, loginButton);
+
+//        addTextWatcher(accountEdit, passwordEdit);
+
+        getVerificationCodeButton.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+                String phone = accountEdit.getText().toString();
+                if (StringUtils.isBlank(phone)) {
+                    ToastUtils.showMsg(ResourceHelper.getString(R.string.phone_blank));
+                    return;
+                }
+                if (phone.length() != 11) {
+                    ToastUtils.showMsg(ResourceHelper.getString(R.string.please_input_11_phone_number));
+                    return;
+                }
+                if (!phone.startsWith("1") && !phone.startsWith("9")) {
+                    ToastUtils.showMsg(ResourceHelper.getString(R.string.please_input_valid_number));
+                    return;
+                }
                 IMEUtil.hideIME(LoginViewController.this);
-                ViewControllerNavigator.getInstance().toResetPassword(getDialogParam());
+                //获取验证码
+                getVerificationCodeButtonImpl(phone);
             }
         });
-        ViewUtils.bindEditWithButton(passwordEdit, loginButton);
-
-        addTextWatcher(accountEdit, passwordEdit);
-
     }
     private void addTextWatcher(EditText... editTexts ){
         for (final EditText editText : editTexts){
@@ -275,12 +308,50 @@ public class LoginViewController extends BaseAuthViewController {
         }
     }
 
+
     private void updateLoginButtonState(){
-        if (accountEdit.length() == 0 || passwordEdit.length() == 0){
+        if (accountEdit.length() == 0 ){
             ViewUtils.setViewEnable(loginButton, false);
         }else {
             ViewUtils.setViewEnable(loginButton, true);
         }
+    }
+
+    /**
+     * 获取短信验证码
+     *
+     * @param phone 手机号码
+     */
+    private void getVerificationCodeButtonImpl(String phone) {
+        showLoading();
+        ApiFacade.getInstance().requestVerificationCode(phone, IAuthApi.VCODE_TYPE_REGISTER, retryTime,new TtRespListener<Void>() {
+            @Override
+            public void onNetSucc(String url, Map<String, String> params, Void result) {
+                hideLoading();
+                retryTime ++;
+                if (params != null) {
+                    waitingVerifyCode = true;
+                    Log.d(TAG, "success request verify code ");
+                    ToastUtils.showMsg(R.string.already_sent_verification_tips);
+                    reGetVerifyCodeButtonController.prepare();
+                    reGetVerifyCodeButtonController.startCountDown();
+                } else {
+                    Log.d(TAG, "error request verify code.");
+                }
+            }
+
+            @Override
+            public void onNetError(String url, Map<String, String> params, String errno, String errmsg) {
+                super.onNetError(url, params, errno, errmsg);
+                hideLoading();
+            }
+
+            @Override
+            public void onFail(int errorNo, String errmsg) {
+                super.onFail(errorNo, errmsg);
+                hideLoading();
+            }
+        });
     }
 
     private void loginImpl(String account, String password) {
@@ -327,7 +398,7 @@ public class LoginViewController extends BaseAuthViewController {
 
     private void cleanInputs() {
         accountEdit.setText("");
-        passwordEdit.setText("");
+//        passwordEdit.setText("");
     }
 
     private void putHistoryAccount2Input(AccountHistoryInfo historyInfo) {
@@ -392,10 +463,10 @@ public class LoginViewController extends BaseAuthViewController {
 
         if (StringUtils.isBlank(pwd)){
             Log.i(TAG, "fail to get pwd from history.");
-            passwordEdit.setText("");
+//            passwordEdit.setText("");
         } else {
             String pwdToFill = MD5_PWD_PREFIX + pwd;
-            passwordEdit.setText(pwdToFill);
+//            passwordEdit.setText(pwdToFill);
         }
     }
 
