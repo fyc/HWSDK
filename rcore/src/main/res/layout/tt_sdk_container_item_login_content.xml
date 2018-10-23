@@ -7,8 +7,8 @@
 
     <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
         android:id="@+id/edit_login_container_account"
-        android:drawableLeft="@drawable/login_icon_user"
-        android:drawableStart="@drawable/login_icon_user"
+        android:drawableLeft="@drawable/login_icon_phone"
+        android:drawableStart="@drawable/login_icon_phone"
         style="@style/DialogEditText"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:maxLines="1"
@@ -17,17 +17,35 @@
         android:singleLine="true"
         android:hint="@string/login_account_hint" />
 
-    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
-        android:inputType="textPassword"
-        android:digits="@string/register_password_digits"
-        android:id="@+id/edit_login_container_password"
-        android:drawableLeft="@drawable/login_icon_password"
-        android:drawableStart="@drawable/login_icon_password"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_edit_height"
+        android:orientation="horizontal"
         android:layout_marginTop="@dimen/margin_16px"
-        style="@style/DialogEditText"
-        android:maxLines="1"
-        android:hint="@string/password_hint" />
-
+        android:background="@drawable/tt_sdk_edt_bg"
+        android:layout_marginBottom="@dimen/margin_16px">
+        <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+            android:id="@+id/edit_login_container_verification_code"
+            android:drawableLeft="@drawable/login_icon_verificationcode"
+            android:drawableStart="@drawable/login_icon_verificationcode"
+            android:inputType="number"
+            android:hint="@string/input_verification_tips"
+            style="@style/DialogEditText"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:maxLines="1"
+            android:imeOptions="actionNext|flagNoExtractUi" />
+        <Button
+            android:id="@+id/btn_register_login_get_verification_code"
+            android:background="@drawable/tt_sdk_selector_right_btn"
+            android:text="@string/request_get_verification_code"
+            android:textSize="@dimen/right_btn_str_size"
+            android:textColor="@color/dk_gamesdk_white"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
     <Button
         android:background="@drawable/sdk_selector_dialog_btn_login"

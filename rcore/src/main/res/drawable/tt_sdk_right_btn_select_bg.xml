@@ -3,5 +3,5 @@
     <corners
         android:bottomRightRadius="@dimen/right_btn_bg_corner"
         android:topRightRadius="@dimen/right_btn_bg_corner"/>
-    <solid android:color="@color/btn_selected_bg"/>
+    <solid android:color="@color/login_blue"/>
 </shape>

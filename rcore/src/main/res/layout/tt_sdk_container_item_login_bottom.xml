@@ -15,22 +15,36 @@
             android:textSize="@dimen/text_size_t3"
             android:lines="1"
             android:clickable="true"
-            android:id="@+id/btn_login_container_forget_password"
-            android:textColor="@color/str_normal_light_black"
+            android:id="@+id/btn_login_container_visitors_to_login"
+            android:textColor="@color/login_blue"
             android:background="@null"
-            android:text="@string/forget_password_with_symbol"/>
+            android:text="@string/visitors_to_login_with_symbol"/>
+
+        <TextView
+            android:id="@+id/btn_login_container_back_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_login_container_register_the_terms_of_service"
+            android:layout_toStartOf="@+id/btn_login_container_register_the_terms_of_service"
+            android:background="@null"
+            android:clickable="true"
+            android:lines="1"
+            android:text="@string/register_and_agreed"
+            android:textColor="@color/login_gray"
+            android:textSize="@dimen/text_size_t3" />
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
             android:lines="1"
             android:clickable="true"
             android:textSize="@dimen/text_size_t3"
-            android:id="@+id/btn_login_container_back_register"
-            android:textColor="@color/str_normal_light_black"
+            android:id="@+id/btn_login_container_register_the_terms_of_service"
+            android:textColor="@color/login_blue"
             android:background="@null"
-            android:text="@string/str_register_line"/>
+            android:text="@string/register_the_terms_of_service"/>
 
 </RelativeLayout>

@@ -88,13 +88,13 @@ public class LoginViewController extends BaseAuthViewController {
         ViewUtils.setViewEnable(loginButton, false);
         titleTv = (TextView)findViewById(R.id.tv_title_container_title);
         titleImg = findViewById(R.id.img_title_container_title);
-        resetPasswordBtn = findViewById(R.id.btn_login_container_forget_password);
+//        resetPasswordBtn = findViewById(R.id.btn_login_container_forget_password);
         backRegisterButton = findViewById(R.id.btn_login_container_back_register);
         accountEdit = (DrawableEditText) findViewById(R.id.edit_login_container_account);
         accountEditViewController = new AccountEditViewController(accountEdit);
         accountEditViewController.noRightDrawableSate();
         historyPickerController = new HistoryPickerController(accountEdit);
-        passwordEdit = (EditText) findViewById(R.id.edit_login_container_password);
+//        passwordEdit = (EditText) findViewById(R.id.edit_login_container_password);
         backTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_back);
         closeTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_close);
         backTitleContainerBtn.setVisibility(GONE);
@@ -126,13 +126,10 @@ public class LoginViewController extends BaseAuthViewController {
                 if (!blankHit) {
                     if (StringUtils.isBlank(str)) {
                         blankHit = true;
-//                        Log.e("XXXX","afterTextChanged : "+s+",hit blank");
                     } else if (!str.endsWith(autoFillCache)) {
                         passwordEdit.setText("");
-//                        Log.e("XXXX", "afterTextChanged : " + s + ", clean pwd");
                     }
                 } else {
-//                    Log.e("XXXX","afterTextChanged : "+s+",reset hit blank");
                     blankHit = false;
                 }
                 ViewUtils.setViewEnable(loginButton, accountEdit.length() != 0);
