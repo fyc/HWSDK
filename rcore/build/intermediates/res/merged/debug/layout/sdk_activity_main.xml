@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/navi_rl"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:background="@color/dk_gamesdk_black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/account_tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/account_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableTop="@drawable/selector_tab_account"
+                    android:enabled="false"
+                    android:text="@string/user_center"
+                    android:textColor="@drawable/selector_tab_text"
+                    android:textSize="@dimen/text_size_t2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/game_tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/game_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableTop="@drawable/selector_tab_game"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="当前游戏"
+                    android:textColor="@drawable/selector_tab_text"
+                    android:textSize="@dimen/text_size_t2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/message_tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/message_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableTop="@drawable/selector_tab_message"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="消息通知"
+                    android:textColor="@drawable/selector_tab_text"
+                    android:textSize="@dimen/text_size_t2"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/open_taozi_container"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/btn_open_taozi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/sdk_icon_taozi_default"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="打开桃子"
+                android:textColor="@drawable/selector_tab_text"
+                android:textSize="@dimen/text_size_t2"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/activity_content"
+        android:layout_width="264dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/btn_selected_bg"/>
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

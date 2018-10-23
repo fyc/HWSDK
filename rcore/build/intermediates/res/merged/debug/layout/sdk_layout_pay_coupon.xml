@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/list_select_coupon"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="288dp"
+        android:scrollbars="none"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:listSelector="@color/dk_transparent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <TextView
+        style="@style/t3_d2"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/tip_no_coupon"
+        android:text="@string/no_coupon"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

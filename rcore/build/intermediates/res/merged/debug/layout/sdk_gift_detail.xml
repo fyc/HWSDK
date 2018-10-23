@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/bg_translucence"
+              android:orientation="vertical"
+              android:paddingTop="0.5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:orientation="vertical"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/t5_bold_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/count"
+            style="@style/t3_d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/due_time"
+            style="@style/t3_d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:text="礼包详情"
+        android:textColor="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t1_2"/>
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/t1_2_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:paddingBottom="14dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="礼包内容"
+        android:textColor="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t1_2"/>
+
+    <TextView
+        android:id="@+id/usage"
+        style="@style/t1_2_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:paddingBottom="14dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:text="使用范围"
+        android:textColor="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t1_2"/>
+
+    <TextView
+        android:id="@+id/use_range"
+        style="@style/t1_2_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginBottom="14dp"
+        android:paddingTop="14dp"/>
+
+    <RelativeLayout
+        android:paddingTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_bg"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp">
+
+            <Button
+                android:id="@+id/get"
+                style="@style/DialogConfirmButton"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/sdk_selector_dialog_btn_orange"
+                android:singleLine="true"
+                android:text="领取礼包"
+                android:textColor="#191919"
+                android:textSize="@dimen/text_size_t5"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

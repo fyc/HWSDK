@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tool="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_translucence"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/ll_discount"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/sdk_black_corner_bg"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/discount_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FED603"
+                android:textSize="@dimen/text_size_t9"
+                android:textStyle="bold"
+                tool:text="4.5折"/>
+
+            <TextView
+                android:id="@+id/origin_discount_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/str_tip"
+                android:textSize="@dimen/text_size_t0s"
+                tool:text="原折扣：7折"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/title_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="11dp"
+            android:layout_toLeftOf="@+id/discount_container"
+            android:layout_toStartOf="@+id/discount_container"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_t7_1"
+            android:textStyle="bold"
+            tool:text="充值折扣"/>
+
+        <TextView
+            android:id="@+id/comment_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/title_discount"
+            android:layout_alignRight="@id/title_discount"
+            android:layout_below="@id/title_discount"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/str_tip"
+            android:textSize="@dimen/text_size_t1_2"
+            tool:text="直接在游戏内充值，享受7折优惠"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sdk_black_corner_bg"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"/>
+
+
+</LinearLayout>

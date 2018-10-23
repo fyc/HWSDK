@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/tt_sdk_shape_dialog_border_bg"
+    android:layout_height="wrap_content">
+
+    <LinearLayout 
+        android:orientation="vertical" android:layout_width="@dimen/margin_580px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="@dimen/margin_50px"
+        android:textSize="@dimen/text_size_t7"
+        android:textStyle="bold"
+        android:textColor="@color/dk_color_5e5e5e"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+         />
+
+        <ImageView 
+        android:layout_marginTop="@dimen/margin_50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        />
+        
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_marginTop="@dimen/margin_16px"
+        android:textSize="@dimen/text_size_t6" 
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_126px" 
+        android:textColor="@color/dk_gamesdk_black"
+        android:layout_marginBottom="@dimen/margin_24px"
+        android:layout_marginLeft="@dimen/margin_40px"
+        android:layout_marginRight="@dimen/margin_40px"
+        android:gravity="center"
+        android:text="@string/confirm_exit"
+        />
+    
+    
+    <View
+            android:id="@+id/v_dialog_content_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_19000000" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_96px"
+        >
+
+        <TextView
+            android:textColor="@color/dk_color_acacac"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:textSize="@dimen/text_size_t5" 
+            android:background="@drawable/tt_sdk_selector_dialog_btn_bg"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_19000000" />
+
+
+        <TextView
+            android:textColor="@color/btn_selected_bg"
+            android:gravity="center"
+            android:text="@string/bind_phone_tip3"
+            android:id="@+id/ensure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_t5" 
+            android:background="@drawable/tt_sdk_selector_dialog_btn_bg"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

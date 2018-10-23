@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_translucence"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_bind_phone"
+        style="@style/SimpleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bind_phone_edt_height"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginTop="@dimen/margin_48px"
+        android:background="@color/edt_input"
+        android:drawableLeft="@drawable/login_icon_phone"
+        android:drawablePadding="@dimen/space_12"
+        android:drawableStart="@drawable/login_icon_phone"
+        android:hint="@string/edt_phone_hint"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="phone|number"
+        android:maxLength="11"
+        android:singleLine="true"
+        android:textColor="@color/item_text_normal"
+        android:textColorHint="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t5"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr"
+        android:background="@color/fragment_default_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bind_phone_edt_height"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr">
+
+        <EditText
+            android:id="@+id/edt_bind_phone_vcode"
+            style="@style/SimpleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/edt_input"
+            android:drawableLeft="@drawable/login_icon_verificationcode"
+            android:drawablePadding="@dimen/space_12"
+            android:drawableStart="@drawable/login_icon_verificationcode"
+            android:hint="@string/input_verification_tips"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textColor="@color/item_text_normal"
+            android:textColorHint="@color/item_text_dark"
+            android:textSize="@dimen/text_size_t5"/>
+
+        <Button
+            android:id="@+id/btn_verification_code_get"
+            android:layout_width="83dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="@dimen/margin_24px"
+            android:layout_marginRight="@dimen/margin_24px"
+            android:background="@drawable/sdk_selector_small_btn_orange"
+            android:enabled="false"
+            android:text="@string/request_get_verification_code"
+            android:textColor="@color/edt_input"
+            android:textSize="@dimen/right_btn_str_size"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr"
+        android:background="@color/fragment_default_bg"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bind_phone_edt_height"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginTop="@dimen/margin_48px"
+        android:background="@drawable/sdk_selector_dialog_btn_orange"
+        android:enabled="false"
+        android:text="@string/ensure"
+        android:textColor="@color/edt_input"
+        android:textSize="@dimen/text_size_t7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginRight="@dimen/bind_phone_input_margin_lr"
+        android:layout_marginTop="@dimen/margin_24px"
+        android:gravity="center"
+        android:text="@string/str_bind_phone_tip"
+        android:textColor="@color/item_text_normal"
+        android:textSize="@dimen/text_size_t3"/>
+</LinearLayout>

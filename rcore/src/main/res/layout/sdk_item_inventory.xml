@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tool="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:background="@color/gray_bg"
+                android:orientation="vertical">
+
+    <com.yiyou.gamesdk.core.base.http.volley.view.HttpImageView
+        android:id="@+id/img_cover"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/title_inventory"
+        style="@style/t5_bold_white"
+        android:layout_alignTop="@+id/img_cover"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/img_cover"
+        android:layout_toRightOf="@+id/img_cover"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        tool:text="王者55星低价转让"/>
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/t3_d2"
+        android:layout_below="@+id/title_inventory"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/img_cover"
+        android:layout_toRightOf="@+id/img_cover"
+        android:maxLines="1"
+        android:textColor="@color/item_text_dark"
+        tool:text="ddddddddddddd\nddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"/>
+
+    <TextView
+        android:id="@+id/goods_price"
+        style="@style/t7_2_bold_d1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:textColor="@color/price_text"
+        tool:text="￥168"/>
+</RelativeLayout>

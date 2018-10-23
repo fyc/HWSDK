@@ -1,0 +1,263 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <style name="DialogFullStyle" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="DialogEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_edit_height</item>
+        <item name="android:textSize">@dimen/edt_text_size</item>
+        <item name="android:textColor">@color/edt_input</item>
+        <item name="android:paddingLeft">@dimen/margin_24px</item>
+        <item name="android:paddingRight">@dimen/margin_24px</item>
+        <item name="android:drawablePadding">@dimen/margin_24px</item>
+        <item name="android:background">@drawable/tt_sdk_edt_bg</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+    </style>
+
+
+    <style name="DialogConfirmButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_confirm_button_height</item>
+        <item name="android:background">@drawable/sdk_selector_dialog_btn_orange</item>
+        <item name="android:textColor">@color/dk_color_ffffff</item>
+        <item name="android:textSize">@dimen/edt_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="DialogDivider">
+        <item name="android:background">@color/dialog_divider</item>
+    </style>
+
+    <style name="DialogDivider.Horizontal" parent="DialogDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <style name="DialogDivider.Vertical" parent="DialogDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">16dp</item>
+    </style>
+
+
+    <style name="DialogFullScreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/dk_transparent_background</item>
+    </style>
+
+    <style name="TabLayout">
+
+    </style>
+
+    <style name="FullWidthEditText">
+        <item name="android:textSize">@dimen/text_size_t5</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/reset_edt_padding</item>
+        <item name="android:paddingRight">@dimen/reset_edt_padding</item>
+        <item name="android:layout_height">@dimen/edt_resetpwd_height</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+        <item name="android:textColor">@color/edt_input</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SimpleEditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/edt_input</item>
+    </style>
+
+    <style name="PayWapContainerItemLand">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="PayWapContainerItem">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- width height start-->
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- width height end-->
+
+
+    <!--  字体样式 start-->
+    <style name="t10_bold_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t10</item>
+    </style>
+
+    <style name="t9_bold_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t9</item>
+    </style>
+
+    <style name="t7_2_bold_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t7_2</item>
+    </style>
+
+    <style name="t7_1_bold_d1" parent="t7_1_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t7_1_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t7_1</item>
+    </style>
+
+    <style name="t7_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t7_1</item>
+    </style>
+
+    <style name="t5_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t5</item>
+    </style>
+
+    <style name="t5_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t5</item>
+    </style>
+
+    <style name="t5_bold_d1" parent="t5_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t5_bold_white" parent="t5_bold_d1">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="t3_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t3</item>
+    </style>
+
+    <style name="t3_bold_d1" parent="t3_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t3_bold_white" parent="t3_bold_d1">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="t3_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t3</item>
+    </style>
+
+    <style name="t1_2_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+
+    <style name="t1_2_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+
+    <style name="t1_2_bold_d2" parent="t1_2_d2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t1_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t1</item>
+    </style>
+
+    <style name="t1_2_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+
+    <style name="t1_2_bold_white" parent="t1_2_white">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t4_bold_d2" parent="t4_d2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t4_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t4</item>
+    </style>
+
+    <style name="t4_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t4</item>
+    </style>
+
+    <style name="t0_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_t0</item>
+    </style>
+
+    <style name="t0_bold_white" parent="t0_white">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="t0_d2" parent="t0_white">
+        <item name="android:textColor">@color/d_gray_2</item>
+    </style>
+    <!--  字体样式 end-->
+</resources>

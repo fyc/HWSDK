@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">好玩游戏</string>
+    <string name="ensure">确定</string>
+    <string name="account_reset_passwd">修改密码</string>
+    <string name="account_wallet">钱包</string>
+    <string name="account_coupon">优惠券</string>
+    <string name="account_children_account">小号</string>
+    <string name="account_payment_password">支付密码</string>
+    <string name="account_feedback">反馈</string>
+    <string name="children_account_manager">小号管理</string>
+    <string name="str_children_account_manager">管理</string>
+    <string name="str_add_children_account">添加新小号</string>
+    <string name="str_add">添加</string>
+    <string name="str_edt">修改</string>
+    <string name="btn_submit">提交</string>
+    <string name="str_change_children_account_tip">确定要切换小号吗?</string>
+    <string name="str_change_children_account_reboot_tip">确定要切换小号吗?(切换成功后会重新启动，如重启失败或重启后无法登陆，请手动重开游戏)</string>
+    <string name="str_no_bind_phone">未绑定手机</string>
+    <string name="str_support"><u>联系客服</u></string>
+    <string name="hint_add_child_user">名称不能大于20个字符</string>
+    <string name="str_too_short_account">请输入最少2位字符</string>
+    <string name="str_too_long_account">请输入最多20位字符</string>
+    <string name="str_child_user_fragment_tip">用户最多可以在游戏中创建10个小号(包括在售中)，创建后不可删除</string>
+    <string name="hint_feedback">填写您想要反馈的内容，我们会认真聆听您的意见。</string>
+    <string name="reset_password_old_password_tip">请输入原登录密码</string>
+    <string name="reset_password_new_password_tip">请输入6–16位新登录密码</string>
+    <string name="reset_password_new_password_re_tip">请再输入6–16位新登录密码</string>
+    <string name="tip_service_terms">注册即同意</string>
+    <string name="btn_service_terms">《服务条款》</string>
+    <string name="btn_reset_password">修改登录密码</string>
+    <string name="btn_next">下一步</string>
+    <string name="modify_password_succ">密码修改成功，请重新登录。</string>
+    <string name="unbind_phone_succ">解除绑定成功，请绑定新的手机号。</string>
+    <string name="current_phone_tip">当前手机号：</string>
+    <string name="title_unbind_phone">更换绑定手机</string>
+    <string name="str_need_bind_phone">需要绑定手机才可以找回密码</string>
+    <string name="str_not_bind">暂不绑定</string>
+    <string name="title_pay_password">支付密码</string>
+    <string name="tip_input_pay_password">请输入支付密码</string>
+    <string name="title_change_pay_password">修改支付密码</string>
+    <string name="hint_pay_password">请输入6–16位支付密码</string>
+    <string name="hint_old_pay_password">请输入原支付密码</string>
+    <string name="hint_new_pay_password">请输入6–16位新支付密码</string>
+    <string name="hint_new_pay_password_re">请再输入6–16位新支付密码</string>
+    <string name="btn_change_pay_password">修改支付密码</string>
+    <string name="btn_set_pay_password">设置支付密码</string>
+    <string name="no_connection">无网络连接，请检查网络配置。</string>
+    <string name="bind_phone_succ">绑定手机号成功</string>
+    <string name="str_bind_phone_tip">绑定后可通过手机号登录找回密码</string>
+    <string name="coupon_discount">满减券</string>
+    <string name="coupon_cash">现金券</string>
+    <string name="no_coupon">暂无优惠券</string>
+    <string name="edit_children_account_tip">请输入新的小号名称：</string>
+
+    <!-- 登录注册 -->
+    <string name="enter_game">立即登录aaa</string>
+    <string name="forget_password_with_symbol"><u>忘记密码?</u></string>
+    <string name="title_forget_password">忘记密码</string>
+    <string name="title_forget_pay_password">忘记支付密码</string>
+    <string name="btn_forget_password">忘记密码?</string>
+    <string name="register">注册</string>
+    <string name="str_register_line"><u>注册</u></string>
+    <string name="btn_register">立即注册</string>
+    <string name="register_by_phone">手机号注册</string>
+    <string name="edt_phone_hint">请输入手机号</string>
+    <string name="register_account_hint">输入4–16位字母开头的用户名</string>
+    <string name="register_password_hint">请输入6–16位登录密码</string>
+    <string name="input_verification_tips">请输入验证码</string>
+    <string name="already_sent_verification_tips">验证码已发送到您的手机，请查看短信。</string>
+    <string name="re_get_verification_fmt" formatted="false">重新获取(%d)</string>
+    <string name="re_get_verification">重新获取</string>
+    <string name="register_by_account">用户名注册</string>
+    <string name="request_get_verification_code">获取验证码</string>
+    <string name="exception_param_error">登录参数无效！</string>
+    <string name="login_account_hint">请输入用户名或手机号</string>
+    <string name="register_password_digits">\`~!@#$%^&#38;*()_+-={}|[]:";'&#60;&#62;?,./0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="account_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ_</string>
+    <string name="bind_phone">绑定手机</string>
+    <string name="account_purchase_history">消费记录</string>
+    <string name="cancel">取消</string>
+    <string name="bind_phone_tip">该手机号码已经绑定TT账号:</string>
+    <string name="bind_phone_tip1">如果继续绑定，则自动与原TT账号解绑。</string>
+    <string name="bind_phone_tip2">手机号已经绑定</string>
+    <string name="bind_phone_tip3">继续绑定</string>
+    <string name="tip">提示</string>
+    <string name="resetpasswd_succ">密码修改成功！</string>
+    <string name="verification_code_error">验证码错误</string>
+    <string name="error_no_login">请先登录再进行操作。</string>
+    <string name="str_account">账户</string>
+    <string name="str_gift_package">礼包</string>
+    <string name="title_wallet">钱包</string>
+    <string name="str_help">帮助</string>
+    <string name="tt_pay_center">充值中心</string>
+    <!-- 登录注册 END -->
+    <string name="confirm_exit">确定退出游戏吗?</string>
+    <!-- 登陆注册 END -->
+
+    <string name="str_never_notify">不再提醒</string>
+    <string name="str_go_back">返回</string>
+    <string name="float_view_permission_setting_tip1">亲，由于小米手机的限制，需要完成以下操作才能为你提供完美的服务。</string>
+    <string name="float_view_permission_setting_tip2">前往应用信息页面，滑至最底部进入权限管理</string>
+    <string name="float_view_permission_setting_tip3">开启显示悬浮窗</string>
+    <string name="float_view_permission_setting_btn_cancle">忽略</string>
+    <string name="float_view_permission_setting_btn_confirn">现在去开启</string>
+    <string name="warning_back_to_register">验证码短信可能略有延迟，确定要离开此步骤？</string>
+    <string name="restart">重新开始</string>
+    <string name="yes_i_wanna_exit">确定离开</string>
+    <string name="keep_waiting">等待</string>
+    <string name="warning_delete_account" formatted="false"><![CDATA[确定删除账号<%1s>?]]></string>
+    <string name="delete_account">删除账号</string>
+    <string name="delete">删除</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="loading_welcome">加载中，请稍后</string>
+    <string name="exit">退出</string>
+    <string name="commiting">正在提交中...</string>
+    <string name="str_my_account">我的账户</string>
+    <string name="check_new_game_version">检测到新版本</string>
+    <string name="do_you_download_new_version">检测到游戏有一个重要更新，确定要下载更新安装吗？</string>
+    <string name="not_download">稍后更新</string>
+    <string name="go_download">立刻下载更新</string>
+    <string name="fail_init_sdk_db_error">无法打开数据库，SDK INIT失败</string>
+    <string name="error_init_invaild_gameid">初始化失败，找不到有效的游戏Id.请检查init参数或配置文件。</string>
+    <string name="user_cancel_login">用户取消登录</string>
+    <string name="phone_blank">手机号码不能为空!</string>
+    <string name="please_input_11_phone_number">请输入11位手机号码!</string>
+    <string name="please_input_valid_number">请输入有效的手机号码</string>
+    <string name="please_input_at_least_6_len">请输入最少6位的非空密码!</string>
+    <string name="my_account">我的账号</string>
+    <string name="pay_record">充值纪录</string>
+    <string name="please_input_valid_11_phone_num">请输入有效的11位手机号码！</string>
+    <string name="account_null">账号不能为空</string>
+    <string name="str_change_account_tile">注销</string>
+    <string name="str_change_account_msg">确定注销账户？</string>
+    <string name="str_change_bind_phone_msg_hint">是否更换绑定手机？</string>
+    <string name="str_bind_phone_msg_hint">是否绑定手机？</string>
+    <string name="str_change_account_btn">切换</string>
+    <string name="str_day_count">%d天前</string>
+    <string name="str_price_compare">原价：¥%1$.2f 已省：¥%2$.2f</string>
+    <string name="str_price">￥%.2f</string>
+    <string name="str_sub_price">-￥%.2f</string>
+    <string name="tip_discount">已享受桃子手游充值折扣 </string>
+    <string name="tip_gold_discount">已享受桃子手游黄金限时 </string>
+    <!--个人中心-->
+    <string name="user_center">个人中心</string>
+    <string name="user_account">账号</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="coupon">优惠券</string>
+    <string name="my_child_account">我的小号</string>
+
+    <!--礼包中心-->
+    <string name="game_package_num" formatted="false">剩余数量: %d/%d</string>
+    <string name="game_package_expire_time" formatted="false">过期日期: %s</string>
+    <string name="game_package_code" formatted="false">兑换码：%s</string>
+    <string name="game_package_copy" formatted="false">%s\n复制礼包</string>
+    <string name="game_package_get_limit_hint" formatted="false">满%s元可领</string>
+
+</resources>

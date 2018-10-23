@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\anim\\anim_rotate_loading.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\anim\\anim_rotate_loading.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\anim\\tt_sdk_anim_float_view_left.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\anim\\tt_sdk_anim_float_view_left.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\anim\\tt_sdk_anim_float_view_right.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\anim\\tt_sdk_anim_float_view_right.xml"
+    }
+]

@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets{
+        main{
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    def signingPropFile = rootProject.file('sign/signing.properties')
+    def Properties signingProps = new Properties()
+    signingProps.load(new FileInputStream(signingPropFile))
+
+    signingConfigs {
+        release {
+            storeFile rootProject.file('sign/core_keystore.jks')
+            keyAlias signingProps['KEY_ALIAS']
+            storePassword signingProps['STORE_PASSWORD']
+            keyPassword signingProps['KEY_PASSWORD']
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.yiyou.gamesdk.rcore"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled config_minifyEnabled
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+}
+
+//repositories {
+//    flatDir {
+//        dirs '../third-party-libs'
+//    }
+//}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided files("../output-libs/release/libs.jar")
+    provided files('../third-party-libs/android-support-v4.jar')
+    provided files('../third-party-libs/alipaySDK-20150724.jar')
+    provided files('../third-party-libs/ipaynow_base_v2.0.1.jar')
+    provided files('../third-party-libs/ipaynow_upmp_assist_v1.0.4.jar')
+    provided files('../third-party-libs/ipaynow_upmp_plugin_v1.0.4.jar')
+    provided files('../third-party-libs/ipaynow_wechatwp_v2.0.0.jar')
+    provided files('../third-party-libs/ipaynow_view_v2.0.1.jar')
+//    compile(name:'recyclerview-v7-23.0.0', ext:'aar')
+}
+
+task output(type: Copy) {
+
+    from 'build/outputs/apk'
+    into '../output-libs/release/merge/assets/apk'
+    include 'rcore-release.apk'
+    rename 'rcore-release.apk','rplugin.apk'
+}
+
+build.dependsOn output

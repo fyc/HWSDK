@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/sdk_black_corner_bg">
+    <TextView
+        android:id="@+id/message_title"
+        style="@style/t5_bold_d1"
+        android:textColor="@color/item_text_normal"
+        tool:text="“荣耀时刻”活动全量开放公告"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" />
+    <com.yiyou.gamesdk.core.ui.widget.roundview.RoundTextView
+        android:id="@+id/message_type"
+        android:layout_below="@+id/message_title"
+        style="@style/t1_2_bold_d2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        app:rv_strokeColor="@color/d_gray_2"
+        app:rv_cornerRadius="100dp"
+        app:rv_strokeWidth="1dp"
+        tool:text="桃子手游"/>
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/item_text_dark"
+        android:layout_margin="7dp"
+        tool:text="1993.3.3"
+        style="@style/t1_2_white" />
+</RelativeLayout>

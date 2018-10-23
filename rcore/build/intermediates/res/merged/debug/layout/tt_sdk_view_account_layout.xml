@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/account_liearlayout_height"
+                android:background="@color/bg_translucence">
+
+
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:textColor="@color/item_text_normal"
+        android:textSize="@dimen/text_size_t3"
+        tools:text="@string/account_reset_passwd"/>
+
+    <TextView
+        android:id="@+id/small_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/left_text"
+        android:textColor="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t1"/>
+
+
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/sdk_ic_all_forward"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@id/arrow"
+        android:gravity="center"
+        android:textColor="@color/item_text_dark"
+        android:textSize="@dimen/text_size_t1_2"
+        tools:text="注销"/>
+
+
+    <ImageView
+        android:id="@+id/iv_redpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/right_text"
+        android:src="@drawable/tt_sdk_account_redpoint"
+        android:visibility="gone"/>
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:background="@color/item_text_dark"/>
+
+</RelativeLayout>

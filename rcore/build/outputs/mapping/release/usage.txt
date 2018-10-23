@@ -1,0 +1,873 @@
+com.flyco.tablayout.CommonTabLayout
+com.flyco.tablayout.CommonTabLayout$1
+com.flyco.tablayout.CommonTabLayout$IndicatorPoint
+com.flyco.tablayout.CommonTabLayout$PointEvaluator
+com.flyco.tablayout.SegmentTabLayout
+com.flyco.tablayout.SegmentTabLayout$1
+com.flyco.tablayout.SegmentTabLayout$IndicatorPoint
+com.flyco.tablayout.SegmentTabLayout$PointEvaluator
+com.flyco.tablayout.SlidingTabLayout:
+    private static final int STYLE_NORMAL
+    private static final int STYLE_TRIANGLE
+    private static final int STYLE_BLOCK
+    183:201:public void setViewPager(android.support.v4.view.ViewPager,java.lang.String[])
+    205:219:public void setViewPager(android.support.v4.view.ViewPager,java.lang.String[],android.support.v4.app.FragmentActivity,java.util.ArrayList)
+    562:567:public void setIndicatorMargin(float,float,float,float)
+    647:647:public boolean isTabSpaceEqual()
+    719:719:public boolean isTextBold()
+    723:723:public boolean isTextAllCaps()
+    769:773:public void showDot(int)
+    777:786:public void hideMsg(int)
+    790:805:public void setMsgMargin(int,float,float)
+    809:814:public com.flyco.tablayout.widget.MsgView getMsgView(int)
+com.flyco.tablayout.SlidingTabLayout$InnerPagerAdapter
+com.flyco.tablayout.listener.CustomTabEntity
+com.flyco.tablayout.utils.FragmentChangeManager
+com.flyco.tablayout.utils.UnreadMsgUtils:
+    16:16:public UnreadMsgUtils()
+    50:57:public static void setSize(com.flyco.tablayout.widget.MsgView,int)
+com.flyco.tablayout.widget.MsgView:
+    135:136:protected int sp2px(float)
+com.yiyou.gamesdk.BuildConfig
+com.yiyou.gamesdk.CoreFragment
+com.yiyou.gamesdk.PluginManager:
+    private static final java.lang.String TAG
+    194:196:public void updateOrientation(int)
+com.yiyou.gamesdk.R:
+    10:10:public R()
+com.yiyou.gamesdk.R$anim
+com.yiyou.gamesdk.R$attr
+com.yiyou.gamesdk.R$color
+com.yiyou.gamesdk.R$dimen
+com.yiyou.gamesdk.R$drawable
+com.yiyou.gamesdk.R$id
+com.yiyou.gamesdk.R$layout
+com.yiyou.gamesdk.R$string
+com.yiyou.gamesdk.R$style
+com.yiyou.gamesdk.R$styleable:
+    1677:1677:public R$styleable()
+com.yiyou.gamesdk.core.CoreManager:
+    protected static final java.lang.String TAG
+    private static final int MSG_EXIT
+    public static final int REQUEST_CODE_PERMISSION
+    169:186:private void reportActiveEvent()
+com.yiyou.gamesdk.core.api.ApiFacade:
+    private static final java.lang.String TAG
+    186:187:public void requestVerificationCode(java.lang.String,int,com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+    241:241:public java.lang.String getSubUserName()
+    264:265:public void childAccountEvent()
+    269:270:public void getCouponCenter(com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+    327:327:public java.util.List getAllChildrenAccountHistories()
+    337:338:public void deleteChildrenAccountHistory(java.lang.String)
+    359:359:public com.yiyou.gamesdk.model.ChildrenAccountHistoryInfo getChildrenAccountHistory(java.lang.String)
+    369:369:public java.util.List getChildrenAccountHistory(java.lang.String,java.lang.String)
+    483:484:public void reportActivate(com.mobilegamebar.rsdk.outer.IOperateCallback)
+    517:517:public com.yiyou.gamesdk.model.AccountHistoryInfo getAccountHistoryByUid(java.lang.String)
+    571:571:public java.lang.String getPasswordFromHistory(java.lang.String)
+    592:592:public java.util.List getCurrentGameAuthHistories()
+    602:602:public com.yiyou.gamesdk.model.AccountHistoryInfo getAccountHistoryByUserName(java.lang.String)
+com.yiyou.gamesdk.core.api.def.IAccountHistoryApi:
+    public abstract com.yiyou.gamesdk.model.AccountHistoryInfo getAccountHistoryByUid(java.lang.String)
+    public abstract java.lang.String getPasswordFromHistory(java.lang.String)
+    public abstract java.util.List getCurrentGameAuthHistories()
+    public abstract com.yiyou.gamesdk.model.AccountHistoryInfo getAccountHistoryByUserName(java.lang.String)
+com.yiyou.gamesdk.core.api.def.IAuthApi:
+    public static final int VCODE_TYPE_REGISTER
+    public static final int VCODE_TYPE_REAL_VERIFY
+    public static final int VCODE_TYPE_RESET_PASSWORD
+    public static final int VCODE_TYPE_BIND_POHNE
+    public static final int VCODE_TYPE_UNBIND_PHONE
+    public static final int VCODE_TYPE_RESET_PAY_PASSWORD
+    public abstract void requestVerificationCode(java.lang.String,int,com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+    public abstract java.lang.String getSubUserName()
+    public abstract void childAccountEvent()
+    public abstract void getCouponCenter(com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+com.yiyou.gamesdk.core.api.def.IChildrenAccountHistoryApi:
+    public abstract com.yiyou.gamesdk.model.ChildrenAccountHistoryInfo getChildrenAccountHistory(java.lang.String)
+    public abstract java.util.List getAllChildrenAccountHistories()
+    public abstract void deleteChildrenAccountHistory(java.lang.String)
+    public abstract java.util.List getChildrenAccountHistory(java.lang.String,java.lang.String)
+com.yiyou.gamesdk.core.api.def.IReportApi:
+    public abstract void reportActivate(com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.api.impl.AccountHistoryManager:
+    private static final java.lang.String TAG
+    127:131:public java.lang.String getPasswordFromHistory(java.lang.String)
+    141:148:public java.util.List getCurrentGameAuthHistories()
+com.yiyou.gamesdk.core.api.impl.AnnouncementManager:
+    private static final java.lang.String TAG
+    254:254:private com.yiyou.gamesdk.model.AnnouncementInfo getAnnouncementInfo(int)
+com.yiyou.gamesdk.core.api.impl.ApiLoader:
+    private static final java.lang.String TAG
+    24:24:public ApiLoader()
+com.yiyou.gamesdk.core.api.impl.AuthManager:
+    private static final java.lang.String TAG
+    private static final java.lang.String MD5_PWD_PREFIX
+    164:165:public void requestVerificationCode(java.lang.String,int,com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+    305:307:public java.lang.String getSubUserName()
+    330:330:public void getCouponCenter(com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+com.yiyou.gamesdk.core.api.impl.ChannelManager:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.api.impl.ChildrenAccountHistoryManager:
+    private static final java.lang.String TAG
+    46:46:public com.yiyou.gamesdk.model.ChildrenAccountHistoryInfo getChildrenAccountHistory(java.lang.String)
+    51:51:public java.util.List getAllChildrenAccountHistories()
+com.yiyou.gamesdk.core.api.impl.PaymentManager:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.api.impl.ReportManager:
+    private static final java.lang.String TYPE_ACTIVATE
+    private static final java.lang.String TYPE_ONLINE
+    private static final java.lang.String TYPE_CHARACTER
+    51:58:public void reportActivate(com.mobilegamebar.rsdk.outer.IOperateCallback)
+    156:175:private java.lang.String getFileContent(java.io.File)
+com.yiyou.gamesdk.core.api.impl.SecurityManager:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.api.impl.UpgradeManager:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.api.impl.payment.AliPayWrapper:
+    private static final java.lang.String TAG
+    private static final int SDK_PAY_FLAG
+    private static final int SDK_CHECK_FLAG
+com.yiyou.gamesdk.core.api.impl.payment.IPayNowWrapper:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.api.impl.payment.PaymentAdapter:
+    public static final int PAY_WAY_ALI_PAY
+    public static final int PAY_WAY_IPAYNOW
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.base.http.RequestHelper:
+    16:16:public RequestHelper()
+com.yiyou.gamesdk.core.base.http.RequestManager:
+    private static final java.lang.String TAG
+    public static final int FIVE_SECOND
+com.yiyou.gamesdk.core.base.http.utils.AppInternalHandler:
+    public static final java.lang.String TAG
+    16:16:public AppInternalHandler()
+    21:27:public static java.lang.String tabTrade(android.app.Activity)
+    44:53:public static java.lang.String singleInventoryList(android.app.Activity,int)
+    80:87:public static java.lang.String changeBindPhone(android.app.Activity)
+    102:109:public static java.lang.String changePassword(android.app.Activity)
+com.yiyou.gamesdk.core.base.http.utils.HttpErrorCodeDef
+com.yiyou.gamesdk.core.base.http.utils.HttpUtils:
+    private static final java.lang.String DEFAULT_CHAREST
+    private static final java.lang.String TAG
+    private static final java.lang.String DEFAULT_HOST
+    private static final java.lang.String DEFAULT_PORT
+    private static final java.lang.String DEFAULT_IP
+    36:36:public HttpUtils()
+    84:92:public static java.lang.String getApnName(android.content.Context)
+    134:134:public static java.lang.String nvl(java.lang.Object)
+    138:161:public static byte[] getGZippedContent(java.lang.String)
+    165:166:public static java.lang.String getDir(java.lang.String)
+    171:177:public static void tryClose(java.io.Closeable)
+    181:185:public static java.lang.String getUrlEncodeStr(java.lang.String)
+    196:196:public static java.lang.String getServiceBaseUrl()
+    200:200:public static java.lang.String getServiceAddressByName()
+    212:221:public static java.lang.String getServiceAddressByName(java.lang.String,java.lang.String)
+    231:237:public static java.lang.String hashKey(java.lang.String)
+    247:253:public static java.lang.String hashKey(byte[])
+    258:266:private static java.lang.String bytesToHexString(byte[])
+com.yiyou.gamesdk.core.base.http.utils.JsonUtils
+com.yiyou.gamesdk.core.base.http.utils.Urlpath:
+    private static final java.lang.String TAG
+    public static final java.lang.String INTER_TEST_HEAD
+    public static final java.lang.String APP_OUTER_TEST_HEAD
+    public static final java.lang.String OUTER_TEST_HEAD
+    public static final java.lang.String HEAD_ONLINE
+    public static final java.lang.String APP_HEAD_ONLINE
+    public static final java.lang.String YUNWEI_1
+    public static final java.lang.String YUNWEI_2
+    public static final java.lang.String DOWNLOAD_APP
+    9:9:public Urlpath()
+com.yiyou.gamesdk.core.base.http.volley.FileDownLoadRequest:
+    private static final int DEFAULT_TIMEOUT
+    private static final int DEFAULT_MAX_RETRIES
+    private static final java.lang.String TAG
+    private static final java.lang.String TEMP
+    private static final int MAX_BUFFER_SIZE
+    45:46:public FileDownLoadRequest(java.lang.String,java.io.File,java.lang.String,com.yiyou.gamesdk.core.base.http.volley.listener.FileDownListener)
+com.yiyou.gamesdk.core.base.http.volley.HwAppRequest:
+    private static final java.lang.String TAG
+    private static final int DEFAULT_TIMEOUT
+    private static final int DEFAULT_MAX_RETRIES
+    protected static final java.lang.String PROTOCOL_CHARSET
+com.yiyou.gamesdk.core.base.http.volley.HwJsonResquest:
+    private static final int DEFAULT_TIMEOUT
+    private static final int DEFAULT_MAX_RETRIES
+    protected static final java.lang.String PROTOCOL_CHARSET
+    private static final java.lang.String TAG
+    98:102:public HwJsonResquest(java.lang.String,com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener)
+com.yiyou.gamesdk.core.base.http.volley.HwRequest:
+    private static final java.lang.String TAG
+    private static final int DEFAULT_TIMEOUT
+    private static final int DEFAULT_MAX_RETRIES
+    protected static final java.lang.String PROTOCOL_CHARSET
+    public static final int CONTENT_TYPE_X_WWW_FORM_URLENCODED
+    public static final int CONTENT_TYPE_RAW_JSON
+    103:114:public HwRequest(java.lang.String,java.util.Map,java.lang.Class,com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener,int)
+com.yiyou.gamesdk.core.base.http.volley.JsonParseError:
+    14:15:public JsonParseError(com.android.volley1.NetworkResponse)
+com.yiyou.gamesdk.core.base.http.volley.Result:
+    public static final java.lang.String HEAD
+    public static final java.lang.String BODY
+    public static final java.lang.String APP_BODY
+    public static final java.lang.String RESULT
+    public static final java.lang.String MESSAGE
+    public static final java.lang.String SERVER_TIME
+    public static final java.lang.String APP_MESSAGE
+    public static final java.lang.String RESULT_OK
+    public static final java.lang.String RESULT_SUCCESS
+    public static final java.lang.String RESULT_PAY_OK
+    public static final java.lang.String UNKONOW_JSON_ERROR
+com.yiyou.gamesdk.core.base.http.volley.Result$Head:
+    87:87:public long getServerTime()
+com.yiyou.gamesdk.core.base.http.volley.cache.LruBitmapCache:
+    private static final int DEFAULT_MAX_SIZE
+com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.base.http.volley.view.HttpImageView:
+    private static final int STATE_PROGRESS_START
+    private static final int STATE_PROGRESS_FINISH
+    private static final int STATE_PROGRESS_LOADING
+    64:64:public boolean isNeedProgress()
+com.yiyou.gamesdk.core.base.web.IDownloadFilter
+com.yiyou.gamesdk.core.base.web.WebViewBuilder:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.base.web.WebViewDownLoadListener
+com.yiyou.gamesdk.core.base.web.WebViewPlus:
+    public static final java.lang.String TAG
+    40:49:private void disableGPU(android.graphics.Canvas)
+com.yiyou.gamesdk.core.base.web.WebViewPlus$WebViewOnTouchListener
+com.yiyou.gamesdk.core.base.web.jsi.JSBridge:
+    private static final java.lang.String TAG
+    private static final java.lang.String ERROR_CALLBACKNAME
+    private static final java.lang.String ERROR_JSON_ERROR
+    private static final java.lang.String ERROR_NO_FUNCTION_FOUND
+    private static final java.lang.String SUCCESS
+    private static final java.lang.String GET_ORIENTATION
+    21:21:public JSBridge()
+com.yiyou.gamesdk.core.base.web.util.WebViewUtil:
+    public static final java.lang.String TAG
+    15:15:public WebViewUtil()
+com.yiyou.gamesdk.core.consts.EventConstant
+com.yiyou.gamesdk.core.consts.StatusCodeDef:
+    public static final int SUCCESS
+    public static final int UNKNOWN
+    public static final int FAIL_INIT_SDK_DB_OPEN_ERROR
+    public static final int FAIL_EXIT_INVALID_CONTEXT
+    public static final int READ_WRITE_DB_NOT_FOUND
+    public static final int INSERT_FAIL_WITH_ERROR
+    public static final int REG_FAIL_INVALID_PHONE
+    public static final int REG_FAIL_INVALID_PWD
+    public static final int LOGIN_FAIL_INVALID_PHONE
+    public static final int LOGIN_FAIL_INVALID_PWD
+    public static final int LOGIN_FAIL_INVALID_GAME_ID
+    public static final int LOGIN_FAIL_NO_AUTH_HISTORY
+    public static final int LOGIN_FAIL_INVALID_ACCOUNT
+    public static final int LOGIN_FAIL_REMOTE_ERROR
+    public static final int LOGIN_FAIL_NETWORK
+    public static final int REG_FAIL_INVALID_NAME
+    public static final int GAME_DOWNLOAD_PLZ_HOLD_CALLBACK
+    public static final java.lang.String RS_SUCCESS
+    public static final java.lang.String RS_ERROR
+    public static final java.lang.String RS_RETURN_NULL
+    public static final java.lang.String RS_ERROR_CHECK_SIGN
+    public static final java.lang.String RS_ERROR_SESSION
+    public static final java.lang.String RS_ERROR_CP_KEY
+    public static final java.lang.String RS_ERROR_DB_OP
+    public static final java.lang.String RS_PHONE_REGISTERED
+    public static final java.lang.String RS_USERNAME_EXISTED
+    public static final java.lang.String RS_ACCOUNT_NOT_EXISTED
+    public static final java.lang.String RS_WRONG_PWD
+    public static final java.lang.String RS_ACCT_ALIASED
+    public static final java.lang.String RS_USER_INFO_COMPLETED
+    public static final java.lang.String RS_NO_FACE
+    public static final java.lang.String RS_WRONG_VERIFY_CODE
+    public static final java.lang.String RS_ERROR_SAME_PWD
+    public static final java.lang.String RS_ERROR_PHONE_FORMAT
+    public static final java.lang.String RS_ERROR_USER_NAME_FORMAT
+    public static final java.lang.String RS_ERROR_NO_PERMISSION
+    public static final java.lang.String RS_USER_NO_GUILD
+    public static final java.lang.String RS_TO_MANY_VERITY_REQ
+    public static final java.lang.String RS_ACCOUNT_EXISTED
+    public static final java.lang.String RS_ERROR_VERIFY_MSG
+    public static final java.lang.String RS_SECURITY_NOT_UPGRADE
+    public static final java.lang.String RS_WRONG_SECURITY_ANSWER
+    public static final java.lang.String RS_WRONG_SECURITY_QUESTION
+    public static final java.lang.String RS_SENSITIVE_NICK
+    public static final java.lang.String RS_SENSITIVE_SIGN
+    public static final java.lang.String RS_ALREADY_UPGRADE_SECURITY
+    public static final java.lang.String RS_CAN_NOT_REST_ACCT
+    public static final java.lang.String RS_CPP_FORBIDDEN_ACCT
+    public static final java.lang.String RS_TOO_MANY_REG_REQ
+    public static final java.lang.String RS_OPENID_EXISTED
+    public static final java.lang.String RS_ERROR_NULL_USER_NAME
+    public static final java.lang.String RS_ERROR_NULL_PWD
+    public static final java.lang.String RS_JAVA_FORBIDDEN_ACCT
+    public static final java.lang.String RS_JAVA_REG_NEED_VERIFY
+    public static final int REMOTE_SUCCESS
+    public static final int SVR_ERROR
+    public static final int SVR_RETURN_NULL
+    public static final int SVR_ERROR_CHECK_SIGN
+    public static final int SVR_ERROR_SESSION
+    public static final int SVR_ERROR_CP_KEY
+    public static final int SVR_ERROR_DB_OP
+    public static final int CPP_SVR_PHONE_REGISTERED
+    public static final int CPP_SVR_USERNAME_EXISTED
+    public static final int CPP_SVR_ACCOUNT_NOT_EXISTED
+    public static final int CPP_SVR_WRONG_PWD
+    public static final int CPP_SVR_ACCT_ALIASED
+    public static final int CPP_SVR_USER_INFO_COMPLETED
+    public static final int CPP_SVR_NO_FACE
+    public static final int CPP_SVR_WRONG_VERIFY_CODE
+    public static final int CPP_SVR_ERROR_SAME_PWD
+    public static final int CPP_SVR_ERROR_PHONE_FORMAT
+    public static final int CPP_SVR_ERROR_USER_NAME_FORMAT
+    public static final int CPP_SVR_ERROR_NO_PERMISSION
+    public static final int CPP_SVR_USER_NO_GUILD
+    public static final int CPP_SVR_TO_MANY_VERITY_REQ
+    public static final int CPP_SVR_ACCOUNT_EXISTED
+    public static final int CPP_SVR_ERROR_VERIFY_MSG
+    public static final int CPP_SVR_SECURITY_NOT_UPGRADE
+    public static final int CPP_SVR_WRONG_SECURITY_ANSWER
+    public static final int CPP_SVR_WRONG_SECURITY_QUESTION
+    public static final int CPP_SVR_SENSITIVE_NICK
+    public static final int CPP_SVR_SENSITIVE_SIGN
+    public static final int CPP_SVR_ALREADY_UPGRADE_SECURITY
+    public static final int CPP_SVR_CAN_NOT_REST_ACCT
+    public static final int CPP_SVR_FORBIDDEN_ACCT
+    public static final int CPP_SVR_TOO_MANY_REG_REQ
+    public static final int CPP_SVR_OPENID_EXISTED
+    public static final int USR_SVR_ERROR_NULL_USER_NAME
+    public static final int USR_SVR_ERROR_NULL_PWD
+    public static final int USR_SVR_FORBIDDEN_ACCT
+    public static final int USR_SVR_REG_NEED_VERIFY
+    11:11:public StatusCodeDef()
+    86:93:public static int transRemoteError(java.lang.String)
+    97:97:public static java.lang.String transRemoteErrorAsString(java.lang.String)
+com.yiyou.gamesdk.core.consts.StringConstant
+com.yiyou.gamesdk.core.download.DownloadTools
+com.yiyou.gamesdk.core.download.DownloadTools$1
+com.yiyou.gamesdk.core.exception.SDKUncaughtExceptionHandler:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.interceptor.ForceInterceptor:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.interceptor.InitParams:
+    43:43:public boolean isDebugMode()
+    51:51:public int getOrientation()
+com.yiyou.gamesdk.core.interceptor.InitStorageInterceptor:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.interceptor.LoginNoticeInterceptor:
+    private static final java.lang.String TAG
+    private com.yiyou.gamesdk.core.ui.widget.dialog.CommDialog msgDialog
+    private com.yiyou.gamesdk.core.ui.widget.dialog.CommDialog LockmsgDialog
+    private com.yiyou.gamesdk.core.ui.widget.dialog.CommDialog DownloadDialog
+com.yiyou.gamesdk.core.interceptor.NoticeInterceptor:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.interceptor.ShowForceDialogInterceptor:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.memcache.LoginInfo:
+    34:34:public com.yiyou.gamesdk.model.AuthModel getAuthModel()
+com.yiyou.gamesdk.core.storage.CustomSQLiteOpenHelper:
+    private static final boolean DEBUG_STRICT_READONLY
+    126:126:public java.lang.String getDatabaseName()
+com.yiyou.gamesdk.core.storage.Database:
+    private static final java.lang.String TAG
+    136:141:public android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.os.CancellationSignal)
+    175:179:public android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)
+    215:219:public android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    233:237:public android.database.Cursor rawQuery(java.lang.String,java.lang.String[])
+    256:260:public android.database.Cursor rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)
+    281:282:public void insert(java.lang.String,java.lang.String,android.content.ContentValues,com.mobilegamebar.rsdk.outer.IOperateCallback)
+    307:309:public void insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int,com.mobilegamebar.rsdk.outer.IOperateCallback)
+    326:327:public void delete(java.lang.String,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+    344:345:public void update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+    364:366:public void updateWithOnConflict(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],int,com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread:
+    private static final int MSG_CONNECT_TO_DB
+    private static final int MSG_INSERT
+    private static final int MSG_INSERT_WITH_ON_CONFLICT
+    private static final int MSG_DELETE
+    private static final int MSG_UPDATE
+    private static final int MSG_UPDATE_WITH_ON_CONFLICT
+    private static final int MSG_CLOSE
+    515:636:public Database$ConnectionThread(android.content.Context,java.lang.String,int,com.yiyou.gamesdk.core.storage.Database$DatabaseInfo,com.mobilegamebar.rsdk.outer.event.EventDispatcher)
+    804:807:public void insert(java.lang.String,java.lang.String,android.content.ContentValues,com.mobilegamebar.rsdk.outer.IOperateCallback)
+    812:818:public void insertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,int,com.mobilegamebar.rsdk.outer.IOperateCallback)
+    822:825:public void delete(java.lang.String,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+    829:832:public void update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+    836:841:public void updateWithOnConflict(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],int,com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread$ParamDelete:
+    584:589:public Database$ConnectionThread$ParamDelete(java.lang.String,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread$ParamInsert:
+    552:557:public Database$ConnectionThread$ParamInsert(java.lang.String,java.lang.String,android.content.ContentValues,com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread$ParamUpdate:
+    603:609:public Database$ConnectionThread$ParamUpdate(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread$ParamUpdateWithOnConflict:
+    621:623:public Database$ConnectionThread$ParamUpdateWithOnConflict(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[],com.mobilegamebar.rsdk.outer.IOperateCallback,int)
+com.yiyou.gamesdk.core.storage.Database$ConnectionThread$ParamsInsertWithOnConflict:
+    568:570:public Database$ConnectionThread$ParamsInsertWithOnConflict(java.lang.String,java.lang.String,android.content.ContentValues,com.mobilegamebar.rsdk.outer.IOperateCallback,int)
+com.yiyou.gamesdk.core.storage.Database$DatabaseConnection:
+    859:877:public Database$DatabaseConnection(android.content.Context,com.yiyou.gamesdk.core.storage.Database$DatabaseInfo,com.mobilegamebar.rsdk.outer.event.EventDispatcher,android.database.DatabaseErrorHandler)
+com.yiyou.gamesdk.core.storage.Database$DatabaseInfo:
+    465:476:public Database$DatabaseInfo(java.lang.String,java.lang.String,int,com.yiyou.gamesdk.core.storage.ITable[])
+com.yiyou.gamesdk.core.storage.ITable:
+    public abstract java.lang.String tableName()
+    public abstract int tableVersion()
+com.yiyou.gamesdk.core.storage.StorageAgent:
+    public static final java.lang.String TAG
+    28:28:public StorageAgent()
+    43:43:public static com.yiyou.gamesdk.core.storage.StorageAgent$ConfigAgent configAgent()
+com.yiyou.gamesdk.core.storage.StorageAgent$ConfigAgent:
+    162:174:public java.util.Properties loadConfig(java.lang.String)
+    178:193:public void saveConfig(java.util.Properties,java.lang.String,java.lang.String)
+    196:196:private java.lang.String getConfigPath(java.lang.String)
+    142:142:static synthetic java.lang.Object access$600()
+    142:142:static synthetic java.util.Map access$700(com.yiyou.gamesdk.core.storage.StorageAgent$ConfigAgent)
+com.yiyou.gamesdk.core.storage.StorageAgent$ConfigAgent$1
+com.yiyou.gamesdk.core.storage.StorageAgent$DBAgent:
+    92:92:public com.yiyou.gamesdk.core.storage.Database getDatabase(java.lang.String)
+com.yiyou.gamesdk.core.storage.db.global.AccountTable:
+    public static final java.lang.String TABLE_NAME
+    public static final int TABLE_VERSION
+    public static final java.lang.String COL_USERID
+    public static final java.lang.String COL_TT_ACCOUNT
+    public static final java.lang.String COL_USERNAME
+    public static final java.lang.String COL_PHONE
+    public static final java.lang.String COL_PWD
+    public static final java.lang.String COL_AVATAR_URL
+    public static final java.lang.String COL_LAST_LOGIN_TIME
+    public static final java.lang.String COL_HAS_PAYPASSWORD
+    public static final java.lang.String COL_REVERSE_TEXT_0
+    public static final java.lang.String COL_REVERSE_TEXT_1
+    public static final java.lang.String COL_REVERSE_TEXT_2
+    public static final java.lang.String COL_REVERSE_TEXT_3
+    public static final java.lang.String COL_REVERSE_TEXT_4
+    public static final java.lang.String COL_REVERSE_TEXT_5
+    public static final java.lang.String COL_REVERSE_NUMBER_0
+    public static final java.lang.String COL_REVERSE_NUMBER_1
+    public static final java.lang.String COL_REVERSE_NUMBER_2
+    public static final java.lang.String COL_REVERSE_NUMBER_3
+    public static final java.lang.String COL_REVERSE_NUMBER_4
+    public static final java.lang.String COL_REVERSE_NUMBER_5
+    public static final java.lang.String COL_REVERSE_BLOB_0
+    public static final java.lang.String COL_REVERSE_BLOB_1
+    public static final java.lang.String COL_REVERSE_BLOB_2
+    public static final int INDEX_USERID
+    public static final int INDEX_TT_ACCOUNT
+    public static final int INDEX_USERNAME
+    public static final int INDEX_PHONE
+    public static final int INDEX_PWD
+    public static final int INDEX_AVATAR_URL
+    public static final int INDEX_LAST_LOGIN_TIME
+    public static final int INDEX_HAS_PAYPASSWORD
+    public static final int INDEX_REVERSE_TEXT_0
+    public static final int INDEX_REVERSE_TEXT_1
+    public static final int INDEX_REVERSE_TEXT_2
+    public static final int INDEX_REVERSE_TEXT_3
+    public static final int INDEX_REVERSE_TEXT_4
+    public static final int INDEX_REVERSE_TEXT_5
+    public static final int INDEX_REVERSE_NUMBER_0
+    public static final int INDEX_REVERSE_NUMBER_1
+    public static final int INDEX_REVERSE_NUMBER_2
+    public static final int INDEX_REVERSE_NUMBER_3
+    public static final int INDEX_REVERSE_NUMBER_4
+    public static final int INDEX_REVERSE_NUMBER_5
+    public static final int INDEX_REVERSE_BLOB_0
+    public static final int INDEX_REVERSE_BLOB_1
+    public static final int INDEX_REVERSE_BLOB_2
+    84:84:public int tableVersion()
+com.yiyou.gamesdk.core.storage.db.global.AnnouncementTable:
+    public static final java.lang.String TABLE_NAME
+    public static final int TABLE_VERSION
+    public static final java.lang.String COL_ID
+    public static final java.lang.String COL_TIME
+    public static final java.lang.String COL_LAST_DAY
+    public static final java.lang.String COL_CHILDREN_UID
+    public static final java.lang.String COL_FIRST_DAY
+    public static final java.lang.String COL_TITLE
+    public static final java.lang.String COL_URL
+    public static final java.lang.String COL_TYPE
+    public static final java.lang.String COL_REVERSE_TEXT_0
+    public static final java.lang.String COL_REVERSE_TEXT_1
+    public static final java.lang.String COL_REVERSE_TEXT_2
+    public static final java.lang.String COL_REVERSE_TEXT_3
+    public static final java.lang.String COL_REVERSE_TEXT_4
+    public static final java.lang.String COL_REVERSE_TEXT_5
+    public static final java.lang.String COL_REVERSE_NUMBER_0
+    public static final java.lang.String COL_REVERSE_NUMBER_1
+    public static final java.lang.String COL_REVERSE_NUMBER_2
+    public static final java.lang.String COL_REVERSE_NUMBER_3
+    public static final java.lang.String COL_REVERSE_NUMBER_4
+    public static final java.lang.String COL_REVERSE_NUMBER_5
+    public static final java.lang.String COL_REVERSE_BLOB_0
+    public static final java.lang.String COL_REVERSE_BLOB_1
+    public static final java.lang.String COL_REVERSE_BLOB_2
+    public static final int INDEX_ID
+    public static final int INDEX_TIME
+    public static final int INDEX_LAST_DAY
+    public static final int INDEX_CHILDREN_UID
+    public static final int INDEX_FIRST_DAY
+    public static final int INDEX_TITLE
+    public static final int INDEX_URL
+    public static final int INDEX_TYPE
+    public static final int INDEX_REVERSE_TEXT_0
+    public static final int INDEX_REVERSE_TEXT_1
+    public static final int INDEX_REVERSE_TEXT_2
+    public static final int INDEX_REVERSE_TEXT_3
+    public static final int INDEX_REVERSE_TEXT_4
+    public static final int INDEX_REVERSE_TEXT_5
+    public static final int INDEX_REVERSE_NUMBER_0
+    public static final int INDEX_REVERSE_NUMBER_1
+    public static final int INDEX_REVERSE_NUMBER_2
+    public static final int INDEX_REVERSE_NUMBER_3
+    public static final int INDEX_REVERSE_NUMBER_4
+    public static final int INDEX_REVERSE_NUMBER_5
+    public static final int INDEX_REVERSE_BLOB_0
+    public static final int INDEX_REVERSE_BLOB_1
+    public static final int INDEX_REVERSE_BLOB_2
+    75:75:public int tableVersion()
+com.yiyou.gamesdk.core.storage.db.global.AnnouncementTableV1:
+    public static final java.lang.String TABLE_NAME
+    public static final int TABLE_VERSION
+    public static final java.lang.String COL_ID
+    public static final java.lang.String COL_TIME
+    public static final java.lang.String COL_LAST_DAY
+    public static final java.lang.String COL_CHILDREN_UID
+    public static final int INDEX_ID
+    public static final int INDEX_TIME
+    public static final int INDEX_LAST_DAY
+    public static final int INDEX_CHILDREN_UID
+    31:31:public int tableVersion()
+com.yiyou.gamesdk.core.storage.db.global.ChildrenAccountTable:
+    public static final java.lang.String TABLE_NAME
+    public static final int TABLE_VERSION
+    public static final java.lang.String COL_CHILDREN_USER_ID
+    public static final java.lang.String COL_CHILDREN_USER_NAME
+    public static final java.lang.String COL_USERID
+    public static final java.lang.String COL_BUNDLE_ID
+    public static final java.lang.String COL_TT_ACCOUNT
+    public static final java.lang.String COL_LAST_LOGIN_TIME
+    public static final java.lang.String COL_GAME_ID
+    public static final java.lang.String COL_REVERSE_TEXT_0
+    public static final java.lang.String COL_REVERSE_TEXT_1
+    public static final java.lang.String COL_REVERSE_TEXT_2
+    public static final java.lang.String COL_REVERSE_TEXT_3
+    public static final java.lang.String COL_REVERSE_TEXT_4
+    public static final java.lang.String COL_REVERSE_TEXT_5
+    public static final java.lang.String COL_REVERSE_NUMBER_0
+    public static final java.lang.String COL_REVERSE_NUMBER_1
+    public static final java.lang.String COL_REVERSE_NUMBER_2
+    public static final java.lang.String COL_REVERSE_NUMBER_3
+    public static final java.lang.String COL_REVERSE_NUMBER_4
+    public static final java.lang.String COL_REVERSE_NUMBER_5
+    public static final java.lang.String COL_REVERSE_BLOB_0
+    public static final java.lang.String COL_REVERSE_BLOB_1
+    public static final java.lang.String COL_REVERSE_BLOB_2
+    public static final int INDEX_CHILDREN_USER_ID
+    public static final int INDEX_CHILDREN_USER_NAME
+    public static final int INDEX_USERID
+    public static final int INDEX_BUNDLE_ID
+    public static final int INDEX_TT_ACCOUNT
+    public static final int INDEX_LAST_LOGIN_TIME
+    public static final int INDEX_GAME_ID
+    public static final int INDEX_REVERSE_TEXT_0
+    public static final int INDEX_REVERSE_TEXT_1
+    public static final int INDEX_REVERSE_TEXT_2
+    public static final int INDEX_REVERSE_TEXT_3
+    public static final int INDEX_REVERSE_TEXT_4
+    public static final int INDEX_REVERSE_TEXT_5
+    public static final int INDEX_REVERSE_NUMBER_0
+    public static final int INDEX_REVERSE_NUMBER_1
+    public static final int INDEX_REVERSE_NUMBER_2
+    public static final int INDEX_REVERSE_NUMBER_3
+    public static final int INDEX_REVERSE_NUMBER_4
+    public static final int INDEX_REVERSE_NUMBER_5
+    public static final int INDEX_REVERSE_BLOB_0
+    public static final int INDEX_REVERSE_BLOB_1
+    public static final int INDEX_REVERSE_BLOB_2
+    74:74:public int tableVersion()
+com.yiyou.gamesdk.core.storage.db.global.GameSDKDatabase:
+    public static final java.lang.String DB_NAME
+    public static final int DB_VERSION
+com.yiyou.gamesdk.core.storage.db.global.TaoZiSdkDatabase:
+    public static final java.lang.String DB_NAME
+    public static final int DB_VERSION
+com.yiyou.gamesdk.core.storage.events.GameDownloadEvent:
+    public static final java.lang.String TYPE_GAME_DOWNLOAD
+    5:5:public GameDownloadEvent()
+com.yiyou.gamesdk.core.storage.events.InternalStorageEvent:
+    public static final java.lang.String TYPE_ON_CONN_CREATE
+    public static final java.lang.String TYPE_ON_CONN_OPEN
+    public static final java.lang.String TYPE_ON_CONN_UPGRADE
+    10:10:public InternalStorageEvent()
+com.yiyou.gamesdk.core.storage.events.NativeTitleBarTitleContentEvent:
+    public static final java.lang.String TYPE_ON_NATIVE_TITLE_BAR_TITLE_CONTENT
+    5:5:public NativeTitleBarTitleContentEvent()
+com.yiyou.gamesdk.core.storage.events.NativeTitleBarUpdateEvent:
+    public static final java.lang.String TYPE_ON_NATIVE_TITLE_BAR_UPDATE
+    6:6:public NativeTitleBarUpdateEvent()
+com.yiyou.gamesdk.core.storage.events.StorageEvent:
+    public static final java.lang.String TYPE_ON_DB_OPEN
+    public static final java.lang.String TYPE_ON_DB_Upgrade
+    public static final java.lang.String TYPE_ALL_DB_PREPARED
+    9:9:public StorageEvent()
+com.yiyou.gamesdk.core.storage.file.PropertiesConfig:
+    public static final java.lang.String GAME_CONFIG_NAME
+    12:12:public PropertiesConfig()
+com.yiyou.gamesdk.core.storage.file.PropertiesConfig$Constant
+com.yiyou.gamesdk.core.storage.file.PropertiesManager:
+    private static final java.lang.String TAG
+    95:110:public void setValue(java.io.File,java.lang.String,java.lang.String)
+    121:123:public void setValueToDefaultConfig(java.lang.String,java.lang.String)
+    129:136:public void updateValueToDefaultConfig(java.lang.String,java.lang.String)
+    139:146:public void flushValueToDefaultConfig()
+    149:159:public int getSum(java.io.File)
+    164:173:public void removeProperties(java.io.File)
+    176:192:public java.util.Set getKeys(java.io.File)
+com.yiyou.gamesdk.core.storage.sharepref.Constant
+com.yiyou.gamesdk.core.ui.common.CommonTitlePrimaryFragment:
+    public static final java.lang.String TITLE_BAR_ARG
+    private static final java.lang.String TAG
+    private static final java.lang.String TITLE_CONTENT
+    55:56:public void setOnTitleClick(com.yiyou.gamesdk.core.ui.common.CommonTitlePrimaryFragment$OnTitleClick)
+com.yiyou.gamesdk.core.ui.common.PayCenterTitleFragment:
+    public static final java.lang.String TITLE_BAR_ARG
+    private static final java.lang.String TAG
+    private static final java.lang.String TITLE_CONTENT
+com.yiyou.gamesdk.core.ui.dialog.TTMainDialog:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.dialog.ViewControllerNavigator:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.dialog.biz.LoginViewController:
+    private static final java.lang.String TAG
+    private static final java.lang.String MD5_PWD_PREFIX
+com.yiyou.gamesdk.core.ui.dialog.biz.LoginViewController$AccountHistoryWrapper:
+    527:527:public java.lang.String key()
+    507:507:public bridge synthetic java.lang.Object data()
+com.yiyou.gamesdk.core.ui.dialog.biz.RegisterViewController:
+    private static final java.lang.String TAG
+    private static final int STATE_REGISTER_PHONE
+    private static final int STATE_REGISTER_ACCOUNT
+    476:504:private void invokeRegisterByPhone(java.lang.String,java.lang.String,java.lang.String)
+    529:530:private void tipTologin()
+    533:535:private void clearRegisterPhoneInfo()
+com.yiyou.gamesdk.core.ui.dialog.biz.RegisterViewController$15
+com.yiyou.gamesdk.core.ui.dialog.biz.ResetPasswordViewController:
+    private static final java.lang.String TAG
+    private static final long AUTO_REGISTER_VERIFY_MODE_EXPIRATION
+com.yiyou.gamesdk.core.ui.event.RefreshEvent
+com.yiyou.gamesdk.core.ui.event.RefreshEvent$RefreshEventParam
+com.yiyou.gamesdk.core.ui.floatview.AnnouncementManager:
+    protected static final java.lang.String TAG
+    228:228:public boolean isShowing()
+com.yiyou.gamesdk.core.ui.floatview.FloatViewController:
+    private static final java.lang.String TAG
+    public static final int HEDE_FLOAT_VIEW_TIME
+    private static final int MES_ANIMA_LEFT
+    private static final int MES_ANIMA_RIGHT
+    private static final int VIEW_GONE
+    private static final int VIEW_Transparent
+    227:227:public android.view.View getViewContainer()
+com.yiyou.gamesdk.core.ui.floatview.IViewController
+com.yiyou.gamesdk.core.ui.fragment.AccountFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.AccountTradeFragment:
+    194:200:public int getScrollY(android.widget.ListView)
+com.yiyou.gamesdk.core.ui.fragment.AccountTradeFragment$Adapter:
+    213:213:public java.util.List getmDataList()
+com.yiyou.gamesdk.core.ui.fragment.BaseFragment:
+    private static final java.lang.String TAG_FRAGMENT_TITLE_BAR
+    139:139:protected final android.view.ViewGroup getTitleContainer()
+    277:278:protected void reuseView(boolean)
+    305:305:protected boolean isFragmentVisible()
+com.yiyou.gamesdk.core.ui.fragment.BindPhoneFragment$ReGetVerifyCodeButtonController:
+    292:303:public void cancelCountDown()
+com.yiyou.gamesdk.core.ui.fragment.BindPhoneFragment$ReGetVerifyCodeButtonController$2
+com.yiyou.gamesdk.core.ui.fragment.ChildrenAccountFragment:
+    private static final java.lang.String TAG
+    private static final int MAX_CHILDACCOUNT_NAME_LENGTH
+    private static final int MIN_CHILDACCOUNT_NAME_LENGTH
+com.yiyou.gamesdk.core.ui.fragment.CouponFragment:
+    private static final java.lang.String TAG
+    private android.content.BroadcastReceiver mReceiver
+com.yiyou.gamesdk.core.ui.fragment.CouponFragment$BaseCouponFragment:
+    185:186:public void setDatalist(java.util.List)
+    189:189:public java.lang.String getTitle()
+    197:197:public java.lang.String getType()
+com.yiyou.gamesdk.core.ui.fragment.DiscountFragment:
+    private static final int MOST_COUNT_ORIENTATION_PORTRAIT
+    private static final int MOST_COUNT_ORIENTATION_LANDSCAPE
+com.yiyou.gamesdk.core.ui.fragment.DiscountFragment$CouponAdapter:
+    205:205:public java.util.List getmData()
+com.yiyou.gamesdk.core.ui.fragment.FeedbackFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.ForgetPasswordFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.ForgetPasswordFragment$ReGetVerifyCodeButtonController:
+    314:325:public void cancelCountDown()
+com.yiyou.gamesdk.core.ui.fragment.ForgetPasswordFragment$ReGetVerifyCodeButtonController$2
+com.yiyou.gamesdk.core.ui.fragment.ForgetPayPasswordFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.ForgetPayPasswordFragment$ReGetVerifyCodeButtonController:
+    296:307:public void cancelCountDown()
+com.yiyou.gamesdk.core.ui.fragment.ForgetPayPasswordFragment$ReGetVerifyCodeButtonController$2
+com.yiyou.gamesdk.core.ui.fragment.GameFragment:
+    52:55:public void hideViewPagerMsg(int)
+com.yiyou.gamesdk.core.ui.fragment.GiftCenterFragment:
+    private static final int MOST_COUNT_ORIENTATION_PORTRAIT
+    private static final int MOST_COUNT_ORIENTATION_LANDSCAPE
+com.yiyou.gamesdk.core.ui.fragment.GiftCenterFragment$Adapter:
+    137:137:public java.util.List getData()
+com.yiyou.gamesdk.core.ui.fragment.GiftDetailFragment:
+    public static final java.lang.String PACKAGE_ID
+com.yiyou.gamesdk.core.ui.fragment.GiftFragment:
+    private static final java.lang.String TAG
+    private android.view.View contentView
+    27:30:public static com.yiyou.gamesdk.core.ui.fragment.GiftFragment newInstance()
+com.yiyou.gamesdk.core.ui.fragment.MessageFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.MessageInfoFragment:
+    30:30:public java.lang.String getTitle()
+    38:38:public java.lang.String getTime()
+com.yiyou.gamesdk.core.ui.fragment.PayCenterFragment:
+    private static final java.lang.String TAG
+    private static final java.lang.String RMB
+    private static final int POSITION_PAYWAY
+    private static final int POSITION_COUPON
+    private double remainFee
+com.yiyou.gamesdk.core.ui.fragment.PayCenterFragment$Adapter:
+    488:488:public java.util.List getmCouponList()
+com.yiyou.gamesdk.core.ui.fragment.PayCenterFragment$CouponListInfo:
+    public static final int LIST_TYPE_HEAD
+    public static final int LIST_TYPE_DIVIDER
+    public static final int LIST_TYPE_ITEM_ABLE
+    public static final int LIST_TYPE_ITEM_DISABLE
+com.yiyou.gamesdk.core.ui.fragment.PayFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.ResetPasswordFragment:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.fragment.UnBindPhoneFragment$ReGetVerifyCodeButtonController:
+    279:290:public void cancelCountDown()
+com.yiyou.gamesdk.core.ui.fragment.UnBindPhoneFragment$ReGetVerifyCodeButtonController$2
+com.yiyou.gamesdk.core.ui.fragment.WalletFragment:
+    private static final java.lang.String TAG
+    32:35:public static com.yiyou.gamesdk.core.ui.fragment.WalletFragment newInstance()
+com.yiyou.gamesdk.core.ui.fragment.WebFragment:
+    private static final java.lang.String TAG
+    private static final int FAKE_MAX_PROGRESS
+    private static final int INCREASE_DURATION
+    138:139:public void refresh()
+com.yiyou.gamesdk.core.ui.widget.CommonAlertDialog
+com.yiyou.gamesdk.core.ui.widget.CommonAlertDialog$DialogClickListener
+com.yiyou.gamesdk.core.ui.widget.DataPicker:
+    private static final int PADDING
+    94:101:public void showAtLocation(android.view.View,int,int,int)
+    104:105:public void showAsDropDown(android.view.View)
+    138:146:public void setSelectedData(com.yiyou.gamesdk.core.ui.widget.DataPicker$IDataWrapper)
+    149:152:public int getSelectedPosition()
+    169:170:public synchronized void appendDataSource(java.util.List)
+com.yiyou.gamesdk.core.ui.widget.DataPicker$DataListAdapter:
+    207:211:public void appendData(java.util.List)
+    279:284:public int getItemPosition(com.yiyou.gamesdk.core.ui.widget.DataPicker$IDataWrapper)
+com.yiyou.gamesdk.core.ui.widget.DataPicker$IDataWrapper:
+    public abstract java.lang.String key()
+    public abstract java.lang.Object data()
+com.yiyou.gamesdk.core.ui.widget.DrawableEditText:
+    private static final java.lang.String TAG
+com.yiyou.gamesdk.core.ui.widget.ExitAlertDialogView:
+    32:33:public com.yiyou.gamesdk.core.ui.widget.ExitAlertDialogView setTitleTip(int)
+    49:50:public com.yiyou.gamesdk.core.ui.widget.ExitAlertDialogView setCancelText(int)
+com.yiyou.gamesdk.core.ui.widget.GameDownloadDialogView:
+    private static final java.lang.String TAG
+    82:83:public com.yiyou.gamesdk.core.ui.widget.GameDownloadDialogView setTitleTip(int)
+    88:89:public com.yiyou.gamesdk.core.ui.widget.GameDownloadDialogView setMessageTip(int)
+    94:95:public com.yiyou.gamesdk.core.ui.widget.GameDownloadDialogView setEnsureText(int)
+    99:100:public com.yiyou.gamesdk.core.ui.widget.GameDownloadDialogView setCancelText(int)
+com.yiyou.gamesdk.core.ui.widget.MultiStateButton
+com.yiyou.gamesdk.core.ui.widget.MultiStateEditText
+com.yiyou.gamesdk.core.ui.widget.MultiStateEditText$1
+com.yiyou.gamesdk.core.ui.widget.MultiStateEditText$2
+com.yiyou.gamesdk.core.ui.widget.ProgressPoint
+com.yiyou.gamesdk.core.ui.widget.ProgressPoint$1
+com.yiyou.gamesdk.core.ui.widget.ProgressPoint$Point
+com.yiyou.gamesdk.core.ui.widget.ProgressPoint$SplashHandler
+com.yiyou.gamesdk.core.ui.widget.RoundedDrawable:
+    public static final java.lang.String TAG
+    public static final int DEFAULT_BORDER_COLOR
+    306:306:public float getCornerRadius()
+    315:315:public float getBorderWidth()
+    325:325:public int getBorderColor()
+    329:329:public com.yiyou.gamesdk.core.ui.widget.RoundedDrawable setBorderColor(int)
+    333:333:public android.content.res.ColorStateList getBorderColors()
+    343:343:public boolean isOval()
+    352:352:public android.widget.ImageView$ScaleType getScaleType()
+    367:367:public android.graphics.Bitmap toBitmap()
+com.yiyou.gamesdk.core.ui.widget.ScalableImageView:
+    private static final java.lang.String TAG
+    public static final float DEFAULT_RADIUS
+    public static final float DEFAULT_BORDER_WIDTH
+    252:257:public com.yiyou.gamesdk.core.ui.widget.ScalableImageView setRoundConner(int)
+    302:302:public boolean isOval()
+    313:313:public boolean mutatesBackground()
+    317:322:public void mutateBackground(boolean)
+com.yiyou.gamesdk.core.ui.widget.StandardDialog:
+    25:27:public StandardDialog(android.content.Context,int)
+    30:32:public StandardDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.yiyou.gamesdk.core.ui.widget.TabLayout
+com.yiyou.gamesdk.core.ui.widget.TabLayout$1
+com.yiyou.gamesdk.core.ui.widget.TabLayout$OnTabSelectedListener
+com.yiyou.gamesdk.core.ui.widget.TabLayout$PagerAdapterObserver
+com.yiyou.gamesdk.core.ui.widget.TabLayout$Tab
+com.yiyou.gamesdk.core.ui.widget.TabLayout$TabGravity
+com.yiyou.gamesdk.core.ui.widget.TabLayout$TabLayoutOnPageChangeListener
+com.yiyou.gamesdk.core.ui.widget.TabLayout$TabView
+com.yiyou.gamesdk.core.ui.widget.TabLayout$ViewPagerOnTabSelectedListener
+com.yiyou.gamesdk.core.ui.widget.dialog.BindPhoneTipView
+com.yiyou.gamesdk.core.ui.widget.dialog.CommDialog:
+    private static final int CLOSE
+    private static final java.lang.String TAG
+    37:45:private CommDialog(android.app.Activity,int)
+com.yiyou.gamesdk.core.ui.widget.dialog.EditInputDialogView:
+    private static final java.lang.String TAG
+    67:68:public com.yiyou.gamesdk.core.ui.widget.dialog.EditInputDialogView setMessageTip(int)
+    78:79:public com.yiyou.gamesdk.core.ui.widget.dialog.EditInputDialogView setCancelText(int)
+    87:88:public void setHint(java.lang.String)
+com.yiyou.gamesdk.core.ui.widget.dialog.MessageTipView:
+    private android.widget.TextView htmlText
+    protected static final java.lang.String TAG
+    44:63:public MessageTipView(android.content.Context,int,android.app.Activity,int)
+    122:145:public void setHtmlText(java.lang.String)
+com.yiyou.gamesdk.core.ui.widget.dialog.MessageTipView$1
+com.yiyou.gamesdk.core.ui.widget.roundview.RoundFrameLayout
+com.yiyou.gamesdk.core.ui.widget.roundview.RoundLinearLayout
+com.yiyou.gamesdk.core.ui.widget.roundview.RoundViewDelegate:
+    72:74:public void setBackgroundPressColor(int)
+    92:94:public void setStrokePressColor(int)
+    97:99:public void setTextPressColor(int)
+    102:104:public void setIsRadiusHalfHeight(boolean)
+    107:109:public void setIsWidthHeightEqual(boolean)
+    112:114:public void setCornerRadius_TL(int)
+    117:119:public void setCornerRadius_TR(int)
+    122:124:public void setCornerRadius_BL(int)
+    127:129:public void setCornerRadius_BR(int)
+    132:132:public int getBackgroundColor()
+    136:136:public int getBackgroundPressColor()
+    140:140:public int getCornerRadius()
+    144:144:public int getStrokeWidth()
+    148:148:public int getStrokeColor()
+    152:152:public int getStrokePressColor()
+    156:156:public int getTextPressColor()
+    168:168:public int getCornerRadius_TL()
+    172:172:public int getCornerRadius_TR()
+    176:176:public int getCornerRadius_BL()
+    180:180:public int getCornerRadius_BR()
+    189:190:protected int sp2px(float)
+com.yiyou.gamesdk.core.update.DefaultUpdateImpl:
+    public static final java.lang.String TAG
+    private static final java.lang.String UPADTE_ZIP_NAME
+com.yiyou.gamesdk.core.update.IHotfixUpdate
+com.yiyou.gamesdk.core.update.ReleaseApkTask:
+    private static final java.lang.String TAG
+    public static final java.lang.String ZIP_REGULAR_SUFFIX
+    private static final java.lang.String APK_SUFFIX
+com.yiyou.gamesdk.rcore.RSDKImpl:
+    private static final java.lang.String TAG

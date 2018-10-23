@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="rv_backgroundColor"/>
+    <attr format="color" name="rv_backgroundPressColor"/>
+    <attr format="dimension" name="rv_cornerRadius"/>
+    <attr format="dimension" name="rv_cornerRadius_BL"/>
+    <attr format="dimension" name="rv_cornerRadius_BR"/>
+    <attr format="dimension" name="rv_cornerRadius_TL"/>
+    <attr format="dimension" name="rv_cornerRadius_TR"/>
+    <attr format="boolean" name="rv_isRadiusHalfHeight"/>
+    <attr format="boolean" name="rv_isRippleEnable"/>
+    <attr format="boolean" name="rv_isWidthHeightEqual"/>
+    <attr format="color" name="rv_strokeColor"/>
+    <attr format="color" name="rv_strokePressColor"/>
+    <attr format="dimension" name="rv_strokeWidth"/>
+    <attr format="color" name="rv_textPressColor"/>
+    <attr format="color" name="tl_divider_color"/>
+    <attr format="dimension" name="tl_divider_padding"/>
+    <attr format="dimension" name="tl_divider_width"/>
+    <attr format="integer" name="tl_indicator_anim_duration"/>
+    <attr format="boolean" name="tl_indicator_anim_enable"/>
+    <attr format="boolean" name="tl_indicator_bounce_enable"/>
+    <attr format="color" name="tl_indicator_color"/>
+    <attr format="dimension" name="tl_indicator_corner_radius"/>
+    <attr format="enum" name="tl_indicator_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_height"/>
+    <attr format="dimension" name="tl_indicator_margin_bottom"/>
+    <attr format="dimension" name="tl_indicator_margin_left"/>
+    <attr format="dimension" name="tl_indicator_margin_right"/>
+    <attr format="dimension" name="tl_indicator_margin_top"/>
+    <attr format="enum" name="tl_indicator_style">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_width"/>
+    <attr format="boolean" name="tl_indicator_width_equal_title"/>
+    <attr format="dimension" name="tl_tab_padding"/>
+    <attr format="boolean" name="tl_tab_space_equal"/>
+    <attr format="dimension" name="tl_tab_width"/>
+    <attr format="boolean" name="tl_textAllCaps"/>
+    <attr format="boolean" name="tl_textBold"/>
+    <attr format="color" name="tl_textSelectColor"/>
+    <attr format="color" name="tl_textUnselectColor"/>
+    <attr format="dimension" name="tl_textsize"/>
+    <attr format="color" name="tl_underline_color"/>
+    <attr format="enum" name="tl_underline_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_underline_height"/>
+    <color name="bg_translucence">#E6000000</color>
+    <color name="blue_3185c1">#3185c1</color>
+    <color name="blue_38a1eb">#38a1eb</color>
+    <color name="blue_alipay">#FF30A2FD</color>
+    <color name="blue_button">#FF3484FD</color>
+    <color name="btn_dark">#ff454747</color>
+    <color name="btn_dark_pressed">#ff3a3c3c</color>
+    <color name="btn_disable_bg">#FF917A05</color>
+    <color name="btn_disable_bg_login">#66FFD600</color>
+    <color name="btn_selected_bg">#FFFFD600</color>
+    <color name="btn_unclickable_bg">#FF9E9E9E</color>
+    <color name="color_0F000000">#0F000000</color>
+    <color name="color_131416">#131416</color>
+    <color name="color_19000000">#19000000</color>
+    <color name="color_1a1b1d">#1a1b1d</color>
+    <color name="color_2c2d2f">#2c2d2f</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_343434">#343434</color>
+    <color name="color_363739">#363739</color>
+    <color name="color_41b354">#41b354</color>
+    <color name="color_50FFFFFF">#50FFFFFF</color>
+    <color name="color_CCFFFFFF">#CCFFFFFF</color>
+    <color name="color_ECF9F2">#ecf9f2</color>
+    <color name="color_a8000000">#a8000000</color>
+    <color name="color_b6b6b6">#b6b6b6</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="coupon_border_normal">#FFE9E9E9</color>
+    <color name="coupon_border_select">#FFFC4D19</color>
+    <color name="coupon_disable_btn">#FF242424</color>
+    <color name="coupon_disable_txt">#FF656565</color>
+    <color name="coupon_expired">#FFD0D0D0</color>
+    <color name="coupon_unused">#FFFC4D19</color>
+    <color name="d_gray_1">#303030</color>
+    <color name="d_gray_2">#9E9E9E</color>
+    <color name="d_gray_3">#FFBDBDBD</color>
+    <color name="d_gray_6">#F4F4F4</color>
+    <color name="dialog_button_press">#0f000000</color>
+    <color name="dialog_divider">#26FFFFFF</color>
+    <color name="dialog_text_input">#CCFFFFFF</color>
+    <color name="dialog_text_label">#7FFFFFFF</color>
+    <color name="dk_bg">#f5f5f5</color>
+    <color name="dk_color_000000">#000000</color>
+    <color name="dk_color_0066cc">#0066cc</color>
+    <color name="dk_color_01d296">#01d296</color>
+    <color name="dk_color_0ab75b">#0ab75b</color>
+    <color name="dk_color_0bb75b">#0bb75b</color>
+    <color name="dk_color_11acacac">#11acacac</color>
+    <color name="dk_color_1588fb">#1588fb</color>
+    <color name="dk_color_207ae8">#207ae8</color>
+    <color name="dk_color_217ac7">#217ac7</color>
+    <color name="dk_color_2472d2">#2472d2</color>
+    <color name="dk_color_26000000">#26000000</color>
+    <color name="dk_color_2764af">#2764af</color>
+    <color name="dk_color_2d2d2d">#2d2d2d</color>
+    <color name="dk_color_2f2f2f">#2f2f2f</color>
+    <color name="dk_color_328dcd">#328dcd</color>
+    <color name="dk_color_333333">#333333</color>
+    <color name="dk_color_33FFFFFF">#33FFFFFF</color>
+    <color name="dk_color_48c75e">#48c75e</color>
+    <color name="dk_color_4c230e">#4c230e</color>
+    <color name="dk_color_4e4e4e">#4e4e4e</color>
+    <color name="dk_color_59f976">#59f876</color>
+    <color name="dk_color_5c5c5c">#5c5c5c</color>
+    <color name="dk_color_5e5e5e">#5e5e5e</color>
+    <color name="dk_color_61B11F">#61B11F</color>
+    <color name="dk_color_666666">#666666</color>
+    <color name="dk_color_6e6e6e">#6e6e6e</color>
+    <color name="dk_color_707070">#707070</color>
+    <color name="dk_color_787878">#787878</color>
+    <color name="dk_color_7f1588fb">#7f1588fb</color>
+    <color name="dk_color_7f48c75e">#7f48c75e</color>
+    <color name="dk_color_7f4c230e">#7f4c230e</color>
+    <color name="dk_color_838383">#838383</color>
+    <color name="dk_color_878787">#878787</color>
+    <color name="dk_color_999999">#999999</color>
+    <color name="dk_color_99FFFFFF">#99FFFFFF</color>
+    <color name="dk_color_9c9c9c">#9c9c9c</color>
+    <color name="dk_color_CC38A1EB">#CC38A1EB</color>
+    <color name="dk_color_CEF6FE">#CEF6FE</color>
+    <color name="dk_color_a9a9a9">#a9a9a9</color>
+    <color name="dk_color_aa999999">#aa999999</color>
+    <color name="dk_color_abc5e3">#abc5e3</color>
+    <color name="dk_color_acacac">#acacac</color>
+    <color name="dk_color_b06b05">#b06b05</color>
+    <color name="dk_color_c0c1c2">#c0c1c2</color>
+    <color name="dk_color_cc3300">#cc3300</color>
+    <color name="dk_color_d0d0d0">#D0D0D0</color>
+    <color name="dk_color_dddddd">#dddddd</color>
+    <color name="dk_color_e38c04">#e38c04</color>
+    <color name="dk_color_e40112">#e40112</color>
+    <color name="dk_color_eeeeee">#eeeeee</color>
+    <color name="dk_color_f08f1e">#f08f1e</color>
+    <color name="dk_color_f2d2d2d">#2d2d2d</color>
+    <color name="dk_color_f5f4ee">#f5f4ee</color>
+    <color name="dk_color_f6f6f6">#F6F6F6</color>
+    <color name="dk_color_f84852">#F84852</color>
+    <color name="dk_color_f9dc33">#f9dc33</color>
+    <color name="dk_color_fabc00">#fabc00</color>
+    <color name="dk_color_fadc33">#fadc33</color>
+    <color name="dk_color_fbc000">#fbc000</color>
+    <color name="dk_color_fd711d">#fd711d</color>
+    <color name="dk_color_fdf2db">#fdf2db</color>
+    <color name="dk_color_ff3300">#ff3300</color>
+    <color name="dk_color_ff6c58">#ff6c58</color>
+    <color name="dk_color_ff6e04">#ff6e04</color>
+    <color name="dk_color_ffa312">#ffa312</color>
+    <color name="dk_color_ffffff">#ffffff</color>
+    <color name="dk_color_fragment_title_bg">#f8f8f7</color>
+    <color name="dk_color_fragment_title_text">#FFE9E9E9</color>
+    <color name="dk_gamesdk_black">#000000</color>
+    <color name="dk_gamesdk_gray">#DBDBDB</color>
+    <color name="dk_gamesdk_orange">#FF6600</color>
+    <color name="dk_gamesdk_white">#FFFFFF</color>
+    <color name="dk_gamesdk_yellow">#932D00</color>
+    <color name="dk_message_button_color_normal">#f08f1e</color>
+    <color name="dk_message_button_color_press">#ffffff</color>
+    <color name="dk_transparent">#00000000</color>
+    <color name="dk_transparent_background">#000000</color>
+    <color name="edt_hint">#FFBDBDBD</color>
+    <color name="edt_input">#FF303030</color>
+    <color name="edt_stroke">#FFBDBDBD</color>
+    <color name="fragment_default_bg">#0FFFFFFF</color>
+    <color name="gray_7fffffff">#7FFFFFFF</color>
+    <color name="gray_bdbdbd">#bdbdbd</color>
+    <color name="gray_bg">#FF303030</color>
+    <color name="green_cc48c75e">#cc48c75e</color>
+    <color name="green_wechat">#FF48D072</color>
+    <color name="item_text_dark">#656565</color>
+    <color name="item_text_normal">#E9E9E9</color>
+    <color name="light_gray">#77777777</color>
+    <color name="limit_discount">#FFB20CF1</color>
+    <color name="menu_item_bg_normal">#002a2a2a</color>
+    <color name="menu_item_bg_press">#2a2a2a</color>
+    <color name="message_item_normal_color">#ffffff</color>
+    <color name="message_item_press_color">#0F000000</color>
+    <color name="normal_discount">#FFFED603</color>
+    <color name="price_text">#FFFC4D19</color>
+    <color name="radio_button_divider">#FFE2E2E2</color>
+    <color name="str_normal_light_black">#FF303030</color>
+    <color name="str_tip">#FF9E9E9E</color>
+    <color name="tip_text_bg">#FFFEE0A5</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_tab_select">#FFE9E9E9</color>
+    <declare-styleable name="AccountLayout"><attr format="string" name="left_text"/><attr format="string" name="right_text"/><attr format="color" name="left_text_color"/><attr format="color" name="right_text_color"/><attr format="boolean" name="divider"/></declare-styleable>
+    <declare-styleable name="CommonTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_width"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_gravity"/><attr name="tl_indicator_style"/><attr name="tl_indicator_anim_enable"/><attr name="tl_indicator_anim_duration"/><attr name="tl_indicator_bounce_enable"/><attr name="tl_underline_color"/><attr name="tl_underline_height"/><attr name="tl_underline_gravity"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/><attr format="dimension" name="tl_iconWidth"/><attr format="dimension" name="tl_iconHeight"/><attr format="boolean" name="tl_iconVisible"/><attr format="enum" name="tl_iconGravity">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr><attr format="dimension" name="tl_iconMargin"/></declare-styleable>
+    <declare-styleable name="MsgView"><attr format="color" name="mv_backgroundColor"/><attr format="dimension" name="mv_cornerRadius"/><attr format="dimension" name="mv_strokeWidth"/><attr format="color" name="mv_strokeColor"/><attr format="boolean" name="mv_isRadiusHalfHeight"/><attr format="boolean" name="mv_isWidthHeightEqual"/></declare-styleable>
+    <declare-styleable name="MultiStateButton"><attr format="reference" name="enable_bg"/><attr format="reference" name="disable_bg"/><attr format="reference" name="press_selector"/></declare-styleable>
+    <declare-styleable name="MultiStateEditText"><attr format="reference" name="drawableLeft"/><attr format="reference" name="hint"/></declare-styleable>
+    <declare-styleable name="ProgressPoint"><attr format="color" name="pointColor"/></declare-styleable>
+    <declare-styleable name="RoundAngleRelativeLayout"><attr format="dimension" name="radius"/><attr format="dimension" name="topLeftRadius"/><attr format="dimension" name="topRightRadius"/><attr format="dimension" name="bottomLeftRadius"/><attr format="dimension" name="bottomRightRadius"/></declare-styleable>
+    <declare-styleable name="RoundFrameLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundLinearLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundRelativeLayout"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="RoundTextView"><attr name="rv_backgroundColor"/><attr name="rv_backgroundPressColor"/><attr name="rv_cornerRadius"/><attr name="rv_strokeWidth"/><attr name="rv_strokeColor"/><attr name="rv_strokePressColor"/><attr name="rv_textPressColor"/><attr name="rv_isRadiusHalfHeight"/><attr name="rv_isWidthHeightEqual"/><attr name="rv_cornerRadius_TL"/><attr name="rv_cornerRadius_TR"/><attr name="rv_cornerRadius_BL"/><attr name="rv_cornerRadius_BR"/><attr name="rv_isRippleEnable"/></declare-styleable>
+    <declare-styleable name="ScalableImageView"><attr format="dimension" name="riv_corner_radius"/><attr format="dimension" name="riv_border_width"/><attr format="color" name="riv_border_color"/><attr format="boolean" name="riv_mutate_background"/><attr format="boolean" name="riv_oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="SegmentTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_anim_enable"/><attr name="tl_indicator_anim_duration"/><attr name="tl_indicator_bounce_enable"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/><attr format="color" name="tl_bar_color"/><attr format="color" name="tl_bar_stroke_color"/><attr format="dimension" name="tl_bar_stroke_width"/></declare-styleable>
+    <declare-styleable name="SlidingTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_width"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_gravity"/><attr name="tl_indicator_style"/><attr name="tl_indicator_width_equal_title"/><attr name="tl_underline_color"/><attr name="tl_underline_height"/><attr name="tl_underline_gravity"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/></declare-styleable>
+    <declare-styleable name="TabLayout"><attr format="color" name="tabIndicatorColor"/><attr format="dimension" name="tabIndicatorHeight"/><attr format="dimension" name="tabContentStart"/><attr format="reference" name="tabBackground"/><attr name="tabMode">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr><attr name="tabGravity">
+            <enum name="fill" value="0"/>
+            <enum name="center" value="1"/>
+        </attr><attr format="dimension" name="tabMinWidth"/><attr format="dimension" name="tabMaxWidth"/><attr format="reference" name="tabTextAppearance"/><attr format="color" name="tabTextColor"/><attr format="color" name="tabSelectedTextColor"/><attr format="dimension" name="tabPaddingStart"/><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingEnd"/><attr format="dimension" name="tabPaddingBottom"/><attr format="dimension" name="tabPadding"/><attr format="dimension" name="tabTextSize"/></declare-styleable>
+    <dimen name="account_button_height">40dp</dimen>
+    <dimen name="account_edittext_margin_top">12dp</dimen>
+    <dimen name="account_liearlayout_height">44dp</dimen>
+    <dimen name="bind_phone_edt_height">44dp</dimen>
+    <dimen name="bind_phone_input_margin_lr">16dp</dimen>
+    <dimen name="btn_width_120">60dp</dimen>
+    <dimen name="btn_width_160">80dp</dimen>
+    <dimen name="comm_title_height">48dp</dimen>
+    <dimen name="common_bar_height">56dp</dimen>
+    <dimen name="dialog_button_height">24dp</dimen>
+    <dimen name="dialog_button_width">24dp</dimen>
+    <dimen name="dialog_confirm_button_height">@dimen/dialog_edit_height</dimen>
+    <dimen name="dialog_edit_height">40dp</dimen>
+    <dimen name="dialog_title_login_container_height">48dp</dimen>
+    <dimen name="dialog_title_register_container_height">48dp</dimen>
+    <dimen name="edt_resetpwd_height">44dp</dimen>
+    <dimen name="edt_stroke_width">0.5dp</dimen>
+    <dimen name="edt_text_size">@dimen/text_size_t5</dimen>
+    <dimen name="float_view_permission_setting_width">290dp</dimen>
+    <dimen name="head_layout_height">100dp</dimen>
+    <dimen name="item_height_80px">40dp</dimen>
+    <dimen name="login_bottom_layout_height">45dp</dimen>
+    <dimen name="login_layout_width">300dp</dimen>
+    <dimen name="login_logo_height">23dp</dimen>
+    <dimen name="login_logo_margin_top">21dp</dimen>
+    <dimen name="login_logo_width">119dp</dimen>
+    <dimen name="margin_10px">5dp</dimen>
+    <dimen name="margin_120px">60dp</dimen>
+    <dimen name="margin_126px">63dp</dimen>
+    <dimen name="margin_16px">8dp</dimen>
+    <dimen name="margin_18px">9dp</dimen>
+    <dimen name="margin_20px">10dp</dimen>
+    <dimen name="margin_24px">12dp</dimen>
+    <dimen name="margin_28px">14dp</dimen>
+    <dimen name="margin_324px">162dp</dimen>
+    <dimen name="margin_32px">16dp</dimen>
+    <dimen name="margin_348px">174dp</dimen>
+    <dimen name="margin_34px">17dp</dimen>
+    <dimen name="margin_40px">20dp</dimen>
+    <dimen name="margin_48px">24dp</dimen>
+    <dimen name="margin_50px">25dp</dimen>
+    <dimen name="margin_56px">28dp</dimen>
+    <dimen name="margin_580px">290dp</dimen>
+    <dimen name="margin_600px">300dp</dimen>
+    <dimen name="margin_6px">3dp</dimen>
+    <dimen name="margin_72px">36dp</dimen>
+    <dimen name="margin_80px">40dp</dimen>
+    <dimen name="margin_96px">48dp</dimen>
+    <dimen name="register_rbt_height">30dp</dimen>
+    <dimen name="reset_edt_padding">16dp</dimen>
+    <dimen name="right_btn_bg_corner">4dp</dimen>
+    <dimen name="right_btn_str_size">@dimen/text_size_t4</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="tab_icon_height">28dp</dimen>
+    <dimen name="tab_icon_width">28dp</dimen>
+    <string name="account_children_account">小号</string>
+    <string name="account_coupon">优惠券</string>
+    <string name="account_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ_</string>
+    <string name="account_feedback">反馈</string>
+    <string name="account_null">账号不能为空</string>
+    <string name="account_payment_password">支付密码</string>
+    <string name="account_purchase_history">消费记录</string>
+    <string name="account_reset_passwd">修改密码</string>
+    <string name="account_wallet">钱包</string>
+    <string name="already_sent_verification_tips">验证码已发送到您的手机，请查看短信。</string>
+    <string name="app_name">好玩游戏</string>
+    <string name="bind_phone">绑定手机</string>
+    <string name="bind_phone_succ">绑定手机号成功</string>
+    <string name="bind_phone_tip">该手机号码已经绑定TT账号:</string>
+    <string name="bind_phone_tip1">如果继续绑定，则自动与原TT账号解绑。</string>
+    <string name="bind_phone_tip2">手机号已经绑定</string>
+    <string name="bind_phone_tip3">继续绑定</string>
+    <string name="btn_change_pay_password">修改支付密码</string>
+    <string name="btn_forget_password">忘记密码?</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_register">立即注册</string>
+    <string name="btn_reset_password">修改登录密码</string>
+    <string name="btn_service_terms">《服务条款》</string>
+    <string name="btn_set_pay_password">设置支付密码</string>
+    <string name="btn_submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="check_new_game_version">检测到新版本</string>
+    <string name="children_account_manager">小号管理</string>
+    <string name="commiting">正在提交中...</string>
+    <string name="confirm_exit">确定退出游戏吗?</string>
+    <string name="coupon">优惠券</string>
+    <string name="coupon_cash">现金券</string>
+    <string name="coupon_discount">满减券</string>
+    <string name="current_phone_tip">当前手机号：</string>
+    <string name="delete">删除</string>
+    <string name="delete_account">删除账号</string>
+    <string name="do_you_download_new_version">检测到游戏有一个重要更新，确定要下载更新安装吗？</string>
+    <string name="edit_children_account_tip">请输入新的小号名称：</string>
+    <string name="edt_phone_hint">请输入手机号</string>
+    <string name="ensure">确定</string>
+    <string name="enter_game">立即登录aaa</string>
+    <string name="error_init_invaild_gameid">初始化失败，找不到有效的游戏Id.请检查init参数或配置文件。</string>
+    <string name="error_no_login">请先登录再进行操作。</string>
+    <string name="exception_param_error">登录参数无效！</string>
+    <string name="exit">退出</string>
+    <string name="fail_init_sdk_db_error">无法打开数据库，SDK INIT失败</string>
+    <string name="float_view_permission_setting_btn_cancle">忽略</string>
+    <string name="float_view_permission_setting_btn_confirn">现在去开启</string>
+    <string name="float_view_permission_setting_tip1">亲，由于小米手机的限制，需要完成以下操作才能为你提供完美的服务。</string>
+    <string name="float_view_permission_setting_tip2">前往应用信息页面，滑至最底部进入权限管理</string>
+    <string name="float_view_permission_setting_tip3">开启显示悬浮窗</string>
+    <string name="forget_password_with_symbol"><u>忘记密码?</u></string>
+    <string formatted="false" name="game_package_code">兑换码：%s</string>
+    <string formatted="false" name="game_package_copy">%s\n复制礼包</string>
+    <string formatted="false" name="game_package_expire_time">过期日期: %s</string>
+    <string formatted="false" name="game_package_get_limit_hint">满%s元可领</string>
+    <string formatted="false" name="game_package_num">剩余数量: %d/%d</string>
+    <string name="go_download">立刻下载更新</string>
+    <string name="hint_add_child_user">名称不能大于20个字符</string>
+    <string name="hint_feedback">填写您想要反馈的内容，我们会认真聆听您的意见。</string>
+    <string name="hint_new_pay_password">请输入6–16位新支付密码</string>
+    <string name="hint_new_pay_password_re">请再输入6–16位新支付密码</string>
+    <string name="hint_old_pay_password">请输入原支付密码</string>
+    <string name="hint_pay_password">请输入6–16位支付密码</string>
+    <string name="input_verification_tips">请输入验证码</string>
+    <string name="keep_waiting">等待</string>
+    <string name="loading_welcome">加载中，请稍后</string>
+    <string name="login_account_hint">请输入用户名或手机号</string>
+    <string name="modify_password_succ">密码修改成功，请重新登录。</string>
+    <string name="my_account">我的账号</string>
+    <string name="my_child_account">我的小号</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="no_connection">无网络连接，请检查网络配置。</string>
+    <string name="no_coupon">暂无优惠券</string>
+    <string name="not_download">稍后更新</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="pay_record">充值纪录</string>
+    <string name="phone_blank">手机号码不能为空!</string>
+    <string name="please_input_11_phone_number">请输入11位手机号码!</string>
+    <string name="please_input_at_least_6_len">请输入最少6位的非空密码!</string>
+    <string name="please_input_valid_11_phone_num">请输入有效的11位手机号码！</string>
+    <string name="please_input_valid_number">请输入有效的手机号码</string>
+    <string name="re_get_verification">重新获取</string>
+    <string formatted="false" name="re_get_verification_fmt">重新获取(%d)</string>
+    <string name="register">注册</string>
+    <string name="register_account_hint">输入4–16位字母开头的用户名</string>
+    <string name="register_by_account">用户名注册</string>
+    <string name="register_by_phone">手机号注册</string>
+    <string name="register_password_digits">\`~!@#$%^&amp;*()_+-={}|[]:";'&lt;>?,./0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="register_password_hint">请输入6–16位登录密码</string>
+    <string name="request_get_verification_code">获取验证码</string>
+    <string name="reset_password_new_password_re_tip">请再输入6–16位新登录密码</string>
+    <string name="reset_password_new_password_tip">请输入6–16位新登录密码</string>
+    <string name="reset_password_old_password_tip">请输入原登录密码</string>
+    <string name="resetpasswd_succ">密码修改成功！</string>
+    <string name="restart">重新开始</string>
+    <string name="str_account">账户</string>
+    <string name="str_add">添加</string>
+    <string name="str_add_children_account">添加新小号</string>
+    <string name="str_bind_phone_msg_hint">是否绑定手机？</string>
+    <string name="str_bind_phone_tip">绑定后可通过手机号登录找回密码</string>
+    <string name="str_change_account_btn">切换</string>
+    <string name="str_change_account_msg">确定注销账户？</string>
+    <string name="str_change_account_tile">注销</string>
+    <string name="str_change_bind_phone_msg_hint">是否更换绑定手机？</string>
+    <string name="str_change_children_account_reboot_tip">确定要切换小号吗?(切换成功后会重新启动，如重启失败或重启后无法登陆，请手动重开游戏)</string>
+    <string name="str_change_children_account_tip">确定要切换小号吗?</string>
+    <string name="str_child_user_fragment_tip">用户最多可以在游戏中创建10个小号(包括在售中)，创建后不可删除</string>
+    <string name="str_children_account_manager">管理</string>
+    <string name="str_day_count">%d天前</string>
+    <string name="str_edt">修改</string>
+    <string name="str_gift_package">礼包</string>
+    <string name="str_go_back">返回</string>
+    <string name="str_help">帮助</string>
+    <string name="str_my_account">我的账户</string>
+    <string name="str_need_bind_phone">需要绑定手机才可以找回密码</string>
+    <string name="str_never_notify">不再提醒</string>
+    <string name="str_no_bind_phone">未绑定手机</string>
+    <string name="str_not_bind">暂不绑定</string>
+    <string name="str_price">￥%.2f</string>
+    <string name="str_price_compare">原价：¥%1$.2f 已省：¥%2$.2f</string>
+    <string name="str_register_line"><u>注册</u></string>
+    <string name="str_sub_price">-￥%.2f</string>
+    <string name="str_support"><u>联系客服</u></string>
+    <string name="str_too_long_account">请输入最多20位字符</string>
+    <string name="str_too_short_account">请输入最少2位字符</string>
+    <string name="tip">提示</string>
+    <string name="tip_discount">已享受桃子手游充值折扣 </string>
+    <string name="tip_gold_discount">已享受桃子手游黄金限时 </string>
+    <string name="tip_input_pay_password">请输入支付密码</string>
+    <string name="tip_service_terms">注册即同意</string>
+    <string name="title_change_pay_password">修改支付密码</string>
+    <string name="title_forget_password">忘记密码</string>
+    <string name="title_forget_pay_password">忘记支付密码</string>
+    <string name="title_pay_password">支付密码</string>
+    <string name="title_unbind_phone">更换绑定手机</string>
+    <string name="title_wallet">钱包</string>
+    <string name="tt_pay_center">充值中心</string>
+    <string name="unbind_phone_succ">解除绑定成功，请绑定新的手机号。</string>
+    <string name="user_account">账号</string>
+    <string name="user_cancel_login">用户取消登录</string>
+    <string name="user_center">个人中心</string>
+    <string name="verification_code_error">验证码错误</string>
+    <string name="warning_back_to_register">验证码短信可能略有延迟，确定要离开此步骤？</string>
+    <string formatted="false" name="warning_delete_account">确定删除账号&lt;%1s>?</string>
+    <string name="yes_i_wanna_exit">确定离开</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="DialogConfirmButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_confirm_button_height</item>
+        <item name="android:background">@drawable/sdk_selector_dialog_btn_orange</item>
+        <item name="android:textColor">@color/dk_color_ffffff</item>
+        <item name="android:textSize">@dimen/edt_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="DialogDivider">
+        <item name="android:background">@color/dialog_divider</item>
+    </style>
+    <style name="DialogDivider.Horizontal" parent="DialogDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+    <style name="DialogDivider.Vertical" parent="DialogDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">16dp</item>
+    </style>
+    <style name="DialogEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_edit_height</item>
+        <item name="android:textSize">@dimen/edt_text_size</item>
+        <item name="android:textColor">@color/edt_input</item>
+        <item name="android:paddingLeft">@dimen/margin_24px</item>
+        <item name="android:paddingRight">@dimen/margin_24px</item>
+        <item name="android:drawablePadding">@dimen/margin_24px</item>
+        <item name="android:background">@drawable/tt_sdk_edt_bg</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+    </style>
+    <style name="DialogFullScreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/dk_transparent_background</item>
+    </style>
+    <style name="DialogFullStyle" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="FullWidthEditText">
+        <item name="android:textSize">@dimen/text_size_t5</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/reset_edt_padding</item>
+        <item name="android:paddingRight">@dimen/reset_edt_padding</item>
+        <item name="android:layout_height">@dimen/edt_resetpwd_height</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+        <item name="android:textColor">@color/edt_input</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="PayWapContainerItem">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="PayWapContainerItemLand">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="SimpleEditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">@color/edt_hint</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/edt_input</item>
+    </style>
+    <style name="TabLayout">
+
+    </style>
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="t0_bold_white" parent="t0_white">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t0_d2" parent="t0_white">
+        <item name="android:textColor">@color/d_gray_2</item>
+    </style>
+    <style name="t0_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_t0</item>
+    </style>
+    <style name="t10_bold_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t10</item>
+    </style>
+    <style name="t1_2_bold_d2" parent="t1_2_d2">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t1_2_bold_white" parent="t1_2_white">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t1_2_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+    <style name="t1_2_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+    <style name="t1_2_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_t1_2</item>
+    </style>
+    <style name="t1_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t1</item>
+    </style>
+    <style name="t3_bold_d1" parent="t3_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t3_bold_white" parent="t3_bold_d1">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="t3_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t3</item>
+    </style>
+    <style name="t3_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t3</item>
+    </style>
+    <style name="t4_bold_d2" parent="t4_d2">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t4_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t4</item>
+    </style>
+    <style name="t4_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t4</item>
+    </style>
+    <style name="t5_bold_d1" parent="t5_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t5_bold_white" parent="t5_bold_d1">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="t5_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t5</item>
+    </style>
+    <style name="t5_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t5</item>
+    </style>
+    <style name="t7_1_bold_d1" parent="t7_1_d1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="t7_1_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textSize">@dimen/text_size_t7_1</item>
+    </style>
+    <style name="t7_2_bold_d1" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t7_2</item>
+    </style>
+    <style name="t7_d2" parent="wrap_wrap">
+        <item name="android:textColor">@color/d_gray_2</item>
+        <item name="android:textSize">@dimen/text_size_t7_1</item>
+    </style>
+    <style name="t9_bold_white" parent="wrap_wrap">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_t9</item>
+    </style>
+    <style name="wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

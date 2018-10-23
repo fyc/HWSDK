@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\color\\tt_sdk_menu_item_text_color_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\color\\tt_sdk_menu_item_text_color_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\color\\tt_sdk_selector_text_color_dialog_register_container_tab_radio_button.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\color\\tt_sdk_selector_text_color_dialog_register_container_tab_radio_button.xml"
+    }
+]

@@ -1,0 +1,349 @@
+[
+    {
+        "outputFile": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 819,
+                        "endColumn": 43,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 44,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 864,
+                        "endColumn": 44,
+                        "endOffset": 904
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endColumn": 43,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 774,
+                        "endColumn": 43,
+                        "endOffset": 813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 45,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 129,
+                        "endColumn": 45,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 45,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 45,
+                        "endOffset": 123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 45,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 727,
+                        "endColumn": 45,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 326,
+                    "endColumn": 43,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 43,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 370,
+                    "endColumn": 43,
+                    "endOffset": 409
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 637,
+                        "endColumn": 43,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 414,
+                    "endColumn": 43,
+                    "endOffset": 453
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 43,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 458,
+                    "endColumn": 43,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 547,
+                        "endColumn": 43,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 43,
+                    "endOffset": 541
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 502,
+                        "endColumn": 43,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 546,
+                    "endColumn": 43,
+                    "endOffset": 585
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 43,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 590,
+                    "endColumn": 45,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 45,
+                        "endOffset": 404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 47,
+                    "endOffset": 679
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 47,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 684,
+                    "endColumn": 45,
+                    "endOffset": 725
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 410,
+                        "endColumn": 45,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 730,
+                    "endColumn": 43,
+                    "endOffset": 769
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 43,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 774,
+                    "endColumn": 45,
+                    "endOffset": 815
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 45,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 820,
+                    "endColumn": 44,
+                    "endOffset": 860
+                },
+                "from": {
+                    "file": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 176,
+                        "endColumn": 44,
+                        "endOffset": 216
+                    }
+                }
+            }
+        ]
+    }
+]

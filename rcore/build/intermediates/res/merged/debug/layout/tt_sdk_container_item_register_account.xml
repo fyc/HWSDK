@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_register_container_account"
+        android:drawableLeft="@drawable/login_icon_user"
+        android:drawableStart="@drawable/login_icon_user"
+        android:layout_marginTop="@dimen/margin_6px"
+        android:layout_marginBottom="@dimen/margin_6px"
+        android:inputType="text"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:hint="@string/register_account_hint"
+        style="@style/DialogEditText"
+        android:digits="@string/account_digits"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:layout_marginTop="@dimen/margin_6px"
+        android:layout_marginBottom="@dimen/margin_6px"
+        android:id="@+id/edit_register_container_account_password"
+        android:digits="@string/register_password_digits"
+        android:drawableLeft="@drawable/login_icon_password"
+        android:drawableStart="@drawable/login_icon_password"
+        android:inputType="textPassword"
+        android:hint="@string/register_password_hint"
+        android:maxLines="1"
+        style="@style/DialogEditText"
+        />
+</LinearLayout>

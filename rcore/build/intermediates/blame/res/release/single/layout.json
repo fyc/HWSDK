@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_reset_password.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_reset_password.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_splash_view.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_splash_view.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_segment.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab_segment.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_base_coupon.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_base_coupon.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_register_bottom.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_register_bottom.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_login_bottom.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_login_bottom.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_base_default.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_base_default.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_dialog_edittext_alert.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_dialog_edittext_alert.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_user_center_un_download_taozi.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_user_center_un_download_taozi.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_loading.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_loading.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_gift.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_gift.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_forget_password.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_forget_password.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_bottom.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab_bottom.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_forget_pay_password.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_forget_pay_password.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_left.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab_left.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_top.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab_top.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_paycenter.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_paycenter.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_dialog_get_package.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_dialog_get_package.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_notice_small.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_notice_small.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_before_login_notice.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_before_login_notice.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_float_view.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_float_view.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_loginsuccess_tip.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_loginsuccess_tip.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_children_account.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_children_account.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_login.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_login.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_coupon_head.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_coupon_head.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_dialog_bindphone_tip.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_dialog_bindphone_tip.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_account_trade.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_account_trade.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_layout_tab_icon.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_dialog_game_download_alert.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_dialog_game_download_alert.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_layout_pay_coupon.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_layout_pay_coupon.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_game.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_game.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_layout_tab_text.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_register_phone.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_register_phone.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_reset_pwd.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_reset_pwd.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_inventory.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_inventory.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_item_data_pick.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_item_data_pick.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_register.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_register.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_web_message.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_web_message.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_layout_children_account.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_layout_children_account.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_common_loading.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_common_loading.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_coupon_divider.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_coupon_divider.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_account.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_account.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_coupon_able.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_coupon_able.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_feedback.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_feedback.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_pay_fragment_title.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_pay_fragment_title.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_right.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab_right.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_bind_phone.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_bind_phone.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\fragment_web_default.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\fragment_web_default.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_dialog_common_alert.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_dialog_common_alert.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_coupon.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_coupon.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_register_account.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_register_account.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_notice_normal.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_notice_normal.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_login_content.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_login_content.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_activity_main.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_activity_main.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\layout_tab.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_layout_message_item.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_layout_message_item.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_pay_password.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_pay_password.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_bar_tips.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_bar_tips.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_layout_pay_way.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_layout_pay_way.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_container_item_title.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_container_item_title.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_coupon_discount.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_coupon_discount.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_custom_toast.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_custom_toast.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_common_fragment_title_primary.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_common_fragment_title_primary.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_gift_center.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_gift_center.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_fragment_unbind_phone.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_fragment_unbind_phone.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_message.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_message.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_fragment_discount.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_fragment_discount.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_view_account_layout.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_view_account_layout.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_gift_detail.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_gift_detail.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_layout_coupon.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_layout_coupon.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_view_account_multistate_edittext.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_view_account_multistate_edittext.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\sdk_item_footer_gift.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\sdk_item_footer_gift.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\layout\\tt_sdk_exit_dialog_alert.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\layout\\tt_sdk_exit_dialog_alert.xml"
+    }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="44dp"
+    android:layout_gravity="center_horizontal"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/common_bar_height"
+        android:layout_height="@dimen/common_bar_height"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:contentDescription="@string/str_go_back"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/nav_icon_back"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_title_content"
+        android:layout_centerInParent="true"
+        style="@style/t7_1_bold_d1"
+        tool:text="个人中心"/>
+
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="@dimen/common_bar_height"
+        android:layout_height="@dimen/common_bar_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/tt_sdk_bar_close_selector" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_bg"/>
+
+
+</RelativeLayout>
+
+

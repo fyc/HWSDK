@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_32px">
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_login_container_account"
+        android:drawableLeft="@drawable/login_icon_user"
+        android:drawableStart="@drawable/login_icon_user"
+        style="@style/DialogEditText"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:maxLines="1"
+        android:inputType="text"
+        android:digits="@string/account_digits"
+        android:singleLine="true"
+        android:hint="@string/login_account_hint" />
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:inputType="textPassword"
+        android:digits="@string/register_password_digits"
+        android:id="@+id/edit_login_container_password"
+        android:drawableLeft="@drawable/login_icon_password"
+        android:drawableStart="@drawable/login_icon_password"
+        android:layout_marginTop="@dimen/margin_16px"
+        style="@style/DialogEditText"
+        android:maxLines="1"
+        android:hint="@string/password_hint" />
+
+
+    <Button
+        android:background="@drawable/sdk_selector_dialog_btn_login"
+        android:id="@+id/btn_login_container_login"
+        style="@style/DialogConfirmButton"
+        android:layout_marginTop="@dimen/margin_32px"
+        android:text="@string/enter_game"/>
+
+</LinearLayout>

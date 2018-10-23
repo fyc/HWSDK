@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_ic_all_forward.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_ic_all_forward.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_used.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_used.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_taozi_default.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_taozi_default.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\icon_all_del.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\icon_all_del.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\logo.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\login_icon_user.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\login_icon_user.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_float_window_normal.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_float_window_normal.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_account_delete.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_account_delete.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_loading_circle.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_loading_circle.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_coupons_unfold.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_coupons_unfold.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\phone.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\phone.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_floatview_close_left.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_floatview_close_left.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_game_default.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_game_default.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_message_selected.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_message_selected.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_floatview_close_right.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_floatview_close_right.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_float_window_transparent.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_float_window_transparent.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_message_default.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_message_default.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\nav_icon_back.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\nav_icon_back.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_icon_expand.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_icon_expand.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\btn_login_pushed_close_press.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\btn_login_pushed_close_press.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\login_icon_password.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\login_icon_password.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\nav_icon_close.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\nav_icon_close.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_icon_delete_on_black_bg.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_icon_delete_on_black_bg.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\btn_login_pushed_close.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\btn_login_pushed_close.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_bg_coupons_gray.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_bg_coupons_gray.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_bg_coupons.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_bg_coupons.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_ic_green_dot_deep.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_ic_green_dot_deep.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_portrait_default.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_portrait_default.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_bg_coupons_red.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_bg_coupons_red.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_portrait_selected.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_portrait_selected.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\login_icon_verificationcode.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\login_icon_verificationcode.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_game_selected.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_game_selected.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\icon_edit.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\icon_edit.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\tt_sdk_icon_collapse.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_icon_collapse.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\login_icon_phone.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\login_icon_phone.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\sdk_icon_back.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\sdk_icon_back.png"
+    }
+]

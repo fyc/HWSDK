@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.flyco.tablayout.SlidingTabLayout
+        app:tl_textsize="14sp"
+        app:tl_textSelectColor="@color/white_tab_select"
+        app:tl_textUnselectColor="@color/str_tip"
+        app:tl_indicator_color="@color/btn_selected_bg"
+        app:tl_indicator_width="36dp"
+        app:tl_indicator_margin_bottom="4dp"
+        app:tl_tab_space_equal="true"
+        android:background="@color/str_normal_light_black"
+        android:id="@+id/game_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

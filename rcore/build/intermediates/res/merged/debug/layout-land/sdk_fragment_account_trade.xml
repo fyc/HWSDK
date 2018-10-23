@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_translucence"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:background="@drawable/sdk_black_corner_bg"
+            android:id="@+id/list_trade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:divider="@drawable/tt_sdk_listview_divider"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/empty_hint"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:gravity="center"
+            android:text="暂无账号交易"
+            android:textColor="@color/item_text_normal"
+            android:textSize="@dimen/text_size_t3"
+            android:visibility="gone"/>
+
+
+        <View
+            android:id="@+id/space"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <com.yiyou.gamesdk.core.ui.widget.roundview.RoundTextView
+            android:id="@+id/sell"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_above="@+id/space"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/space"
+            android:layout_toStartOf="@+id/space"
+            app:rv_backgroundColor="@color/btn_selected_bg"
+            app:rv_cornerRadius="100dp"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="7dp"
+            android:text="卖账号"
+            android:textColor="@color/color_131416"
+            android:textSize="@dimen/text_size_t5"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+</FrameLayout>

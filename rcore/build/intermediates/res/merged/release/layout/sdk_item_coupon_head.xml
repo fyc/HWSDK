@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+    <com.yiyou.gamesdk.core.ui.widget.roundview.RoundTextView
+        android:id="@+id/btn_select_non_coupon"
+        style="@style/t1_2_d1"
+        android:text="不使用优惠券"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="7dp"
+        app:rv_cornerRadius="100dp"
+        app:rv_backgroundColor="@color/d_gray_2"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/d_gray_2"/>
+</RelativeLayout>

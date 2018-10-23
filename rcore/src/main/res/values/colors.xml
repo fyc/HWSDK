@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_38a1eb">#38a1eb</color>
+    <color name="green_cc48c75e">#cc48c75e</color>
+    <color name="gray_7fffffff">#7FFFFFFF</color>
+    <color name="light_gray">#77777777</color>
+    <color name="blue_3185c1">#3185c1</color>
+    <color name="gray_bdbdbd">#bdbdbd</color>
+    <color name="dk_transparent_background">#000000</color>
+    <color name="gray_bg">#FF303030</color>
+
+    <color name="bg_translucence">#E6000000</color>
+    <color name="item_text_normal">#E9E9E9</color>
+    <color name="item_text_dark">#656565</color>
+    <color name="white_tab_select">#FFE9E9E9</color>
+    <color name="price_text">#FFFC4D19</color>
+    <color name="tip_text_bg">#FFFEE0A5</color>
+    <color name="blue_button">#FF3484FD</color>
+    <color name="green_wechat">#FF48D072</color>
+    <color name="blue_alipay">#FF30A2FD</color>
+
+    <color name="limit_discount">#FFB20CF1</color>
+    <color name="normal_discount">#FFFED603</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="320dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/tt_sdk_popup_normal_bg"
+    android:layout_height="306dp">
+    <LinearLayout
+        android:id="@+id/container_pay_center"
+        android:orientation="horizontal"
+        android:layout_width="640dp"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/sdk_layout_pay_way"
+            android:id="@+id/container_pay_way"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </include>
+
+        <include
+            layout="@layout/sdk_layout_pay_coupon"
+            android:id="@+id/container_pay_coupon"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </include>
+    </LinearLayout>
+</LinearLayout>

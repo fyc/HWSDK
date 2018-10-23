@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- text style -->
+    <dimen name="text_size_t12">176px</dimen>
+    <dimen name="text_size_t10">120px</dimen>
+    <dimen name="text_size_t9">108px</dimen>
+    <dimen name="text_size_t8_2">96px</dimen>
+    <dimen name="text_size_t8">88px</dimen>
+    <dimen name="text_size_t7_1_1">72px</dimen>
+    <dimen name="text_size_t7_1">64px</dimen>
+    <dimen name="text_size_t7_2">80px</dimen>
+    <dimen name="text_size_t7">60px</dimen>
+    <dimen name="text_size_t6">54px</dimen>
+    <dimen name="text_size_t5">54px</dimen>
+    <dimen name="text_size_t4">52px</dimen>
+    <dimen name="text_size_t3">48px</dimen>
+    <dimen name="text_size_t2">44px</dimen>
+    <dimen name="text_size_t1_2">40px</dimen>
+    <dimen name="text_size_t1">36px</dimen>
+    <dimen name="text_size_t0">32px</dimen>
+    <dimen name="text_size_t0s">28px</dimen>
+
+</resources>

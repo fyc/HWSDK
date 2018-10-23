@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    >    
+    <LinearLayout
+        android:id="@+id/global_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_24px"
+        android:paddingBottom="@dimen/margin_24px"
+        android:paddingLeft="@dimen/margin_48px"
+        android:paddingRight="@dimen/margin_48px"
+        android:layout_marginTop="@dimen/margin_48px"
+        android:gravity="center"
+        android:background="@drawable/tt_sdk_login_success_tip"
+        >
+
+        <TextView
+            android:id="@+id/account" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16px"
+            android:textColor="@color/color_CCFFFFFF"
+            android:textSize="@dimen/text_size_t4"
+            />
+        
+    </LinearLayout>
+</LinearLayout>

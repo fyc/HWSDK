@@ -1,0 +1,85 @@
+# view land\res/layout-land/sdk_fragment_game.xml #generated:18
+# view land\res/layout-land/tt_sdk_fragment_coupon.xml #generated:24
+# view res/layout/sdk_fragment_game.xml #generated:18
+# view res/layout/tt_sdk_fragment_coupon.xml #generated:24
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/tt_sdk_item_data_pick.xml #generated:11
+# view res/layout/tt_sdk_item_data_pick.xml #generated:20
+# view res/layout/tt_sdk_item_data_pick.xml #generated:38
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view land\res/layout-land/sdk_fragment_game.xml #generated:6
+# view land\res/layout-land/tt_sdk_fragment_coupon.xml #generated:9
+# view res/layout/sdk_fragment_game.xml #generated:6
+# view res/layout/tt_sdk_fragment_coupon.xml #generated:9
+-keep class com.flyco.tablayout.SlidingTabLayout { <init>(...); }
+
+# view res/layout/layout_tab.xml #generated:17
+# view res/layout/layout_tab_bottom.xml #generated:30
+# view res/layout/layout_tab_left.xml #generated:29
+# view res/layout/layout_tab_right.xml #generated:30
+# view res/layout/layout_tab_segment.xml #generated:24
+# view res/layout/layout_tab_top.xml #generated:29
+-keep class com.flyco.tablayout.widget.MsgView { <init>(...); }
+
+# view land\res/layout-land/sdk_item_inventory.xml #generated:8
+# view res/layout/sdk_item_inventory.xml #generated:9
+-keep class com.yiyou.gamesdk.core.base.http.volley.view.HttpImageView { <init>(...); }
+
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:26
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:32
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:39
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:46
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:53
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:62
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:69
+# view land\res/layout-land/tt_sdk_fragment_account.xml #generated:77
+# view res/layout/tt_sdk_fragment_account.xml #generated:26
+# view res/layout/tt_sdk_fragment_account.xml #generated:32
+# view res/layout/tt_sdk_fragment_account.xml #generated:39
+# view res/layout/tt_sdk_fragment_account.xml #generated:46
+# view res/layout/tt_sdk_fragment_account.xml #generated:53
+# view res/layout/tt_sdk_fragment_account.xml #generated:62
+# view res/layout/tt_sdk_fragment_account.xml #generated:69
+# view res/layout/tt_sdk_fragment_account.xml #generated:77
+-keep class com.yiyou.gamesdk.core.ui.widget.AccountLayout { <init>(...); }
+
+# view res/layout/tt_sdk_container_item_login_content.xml #generated:20
+# view res/layout/tt_sdk_container_item_login_content.xml #generated:8
+# view res/layout/tt_sdk_container_item_register_account.xml #generated:21
+# view res/layout/tt_sdk_container_item_register_account.xml #generated:7
+# view res/layout/tt_sdk_container_item_register_phone.xml #generated:25
+# view res/layout/tt_sdk_container_item_register_phone.xml #generated:47
+# view res/layout/tt_sdk_container_item_register_phone.xml #generated:7
+# view res/layout/tt_sdk_dialog_edittext_alert.xml #generated:26
+# view res/layout/tt_sdk_view_account_multistate_edittext.xml #generated:7
+-keep class com.yiyou.gamesdk.core.ui.widget.DrawableEditText { <init>(...); }
+
+# view land\res/layout-land/tt_sdk_fragment_children_account.xml #generated:25
+# view res/layout/tt_sdk_fragment_children_account.xml #generated:25
+-keep class com.yiyou.gamesdk.core.ui.widget.InScrollListView { <init>(...); }
+
+# view land\res/layout-land/sdk_item_coupon_discount.xml #generated:8
+# view res/layout/sdk_item_coupon_able.xml #generated:8
+# view res/layout/sdk_item_coupon_discount.xml #generated:9
+-keep class com.yiyou.gamesdk.core.ui.widget.roundview.RoundRelativeLayout { <init>(...); }
+
+# view land\res/layout-land/sdk_fragment_account_trade.xml #generated:45
+# view land\res/layout-land/sdk_item_coupon_discount.xml #generated:86
+# view land\res/layout-land/sdk_layout_pay_way.xml #generated:128
+# view land\res/layout-land/sdk_layout_pay_way.xml #generated:139
+# view land\res/layout-land/sdk_layout_pay_way.xml #generated:150
+# view land\res/layout-land/sdk_layout_pay_way.xml #generated:68
+# view res/layout/sdk_fragment_account_trade.xml #generated:45
+# view res/layout/sdk_item_coupon_able.xml #generated:57
+# view res/layout/sdk_item_coupon_able.xml #generated:98
+# view res/layout/sdk_item_coupon_discount.xml #generated:55
+# view res/layout/sdk_item_coupon_head.xml #generated:7
+# view res/layout/sdk_layout_message_item.xml #generated:19
+# view res/layout/sdk_layout_pay_way.xml #generated:129
+# view res/layout/sdk_layout_pay_way.xml #generated:141
+# view res/layout/sdk_layout_pay_way.xml #generated:152
+# view res/layout/sdk_layout_pay_way.xml #generated:68
+-keep class com.yiyou.gamesdk.core.ui.widget.roundview.RoundTextView { <init>(...); }
+

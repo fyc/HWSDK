@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_liearlayout_height">44dp</dimen>
+    <dimen name="comm_title_height">48dp</dimen>
+    <dimen name="login_layout_width">300dp</dimen>
+    <dimen name="login_logo_width">119dp</dimen>
+    <dimen name="login_logo_height">23dp</dimen>
+    <dimen name="login_logo_margin_top">21dp</dimen>
+    <dimen name="edt_text_size">@dimen/text_size_t5</dimen>
+    <dimen name="edt_stroke_width">0.5dp</dimen>
+    <dimen name="login_bottom_layout_height">45dp</dimen>
+    <dimen name="register_rbt_height">30dp</dimen>
+    <dimen name="head_layout_height">100dp</dimen>
+    <dimen name="tab_icon_width">28dp</dimen>
+    <dimen name="tab_icon_height">28dp</dimen>
+    <dimen name="right_btn_bg_corner">4dp</dimen>
+    <dimen name="right_btn_str_size">@dimen/text_size_t4</dimen>
+    <dimen name="reset_edt_padding">16dp</dimen>
+    <dimen name="bind_phone_edt_height">44dp</dimen>
+    <dimen name="bind_phone_input_margin_lr">16dp</dimen>
+
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_edit_height">40dp</dimen>
+    <dimen name="dialog_confirm_button_height">@dimen/dialog_edit_height</dimen>
+    <dimen name="dialog_title_login_container_height">48dp</dimen>
+    <dimen name="dialog_title_register_container_height">48dp</dimen>
+    <dimen name="dialog_button_height">24dp</dimen>
+    <dimen name="dialog_button_width">24dp</dimen>
+
+
+    <!-- 账号 -->
+    <dimen name="margin_10px">5dp</dimen>
+    <dimen name="margin_16px">8dp</dimen>
+    <dimen name="margin_18px">9dp</dimen>
+    <dimen name="margin_24px">12dp</dimen>
+    <dimen name="account_edittext_margin_top">12dp</dimen>
+    <dimen name="margin_32px">16dp</dimen>
+    <dimen name="margin_34px">17dp</dimen>
+    <dimen name="margin_48px">24dp</dimen>
+    <dimen name="account_button_height">40dp</dimen>
+    <dimen name="margin_80px">40dp</dimen>
+    <dimen name="margin_20px">10dp</dimen>
+    <dimen name="common_bar_height">56dp</dimen>
+    <dimen name="float_view_permission_setting_width">290dp</dimen>
+    <dimen name="margin_56px">28dp</dimen>
+    <dimen name="margin_96px">48dp</dimen>
+    <dimen name="margin_72px">36dp</dimen>
+    <dimen name="item_height_80px">40dp</dimen>
+    <dimen name="margin_6px">3dp</dimen>
+    <dimen name="margin_50px">25dp</dimen>
+    <dimen name="margin_40px">20dp</dimen>
+    <dimen name="margin_580px">290dp</dimen>
+    <dimen name="margin_348px">174dp</dimen>
+    <dimen name="margin_126px">63dp</dimen>
+    <dimen name="margin_600px">300dp</dimen>
+    <dimen name="margin_120px">60dp</dimen>
+    <dimen name="margin_28px">14dp</dimen>
+    <dimen name="margin_324px">162dp</dimen>
+
+    <dimen name="edt_resetpwd_height">44dp</dimen>
+    
+    <!-- 一键注册图形验证码 -->
+    <dimen name="btn_width_120">60dp</dimen>
+    <dimen name="btn_width_160">80dp</dimen>
+
+
+</resources>

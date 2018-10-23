@@ -1,0 +1,142 @@
+import java.util.zip.ZipEntry
+import java.util.zip.ZipFile
+
+apply plugin: 'com.android.library'
+
+android {
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled config_minifyEnabled
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided files("../output-libs/release/libs.jar")
+    provided files('../third-party-libs/android-support-v4.jar')
+}
+
+
+
+
+//task clearJar(type: Delete) {
+//    delete "../output-libs/release/container.jar"
+//}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('../output-libs/release/')
+    include('classes.jar')
+    rename('classes.jar', "container.jar")
+}
+
+build.dependsOn makeJar
+
+
+task wirteVersionFile(){
+
+
+    File f = file('../output-libs/release/merge/assets/haowan_rsdk_config/version.config')
+
+    if (!f.getParentFile().exists()){
+        f.getParentFile().mkdirs();
+    }
+
+    PrintWriter p = new PrintWriter(f);
+
+
+    p.println("sdk_version="+SDK_VERSION)
+    p.println("core_version="+CORE_VERSION)
+    p.flush()
+}
+
+
+task mergeJar(type : Jar){
+
+
+    File merge = file('../output-libs/release/merge')
+
+
+    from '../output-libs/release/merge'
+    destinationDir = file('../app/libs')
+    baseName = 'MobileGameBAR-RSDK-V'+SDK_VERSION + '-R'+CORE_VERSION
+
+
+
+}
+
+
+task unzip() {
+    File file = file("../output-libs/release")
+    File merge = new File(file, "merge")
+
+    merge.mkdirs()
+
+    File[] files = file.listFiles();
+
+    for (File zip : files) {
+
+        if (zip.getName().endsWith(".jar")) {
+
+
+            ZipFile zipFile = new ZipFile(zip)
+
+
+            Enumeration<? extends ZipEntry> entries = zipFile.entries()
+            while (entries.hasMoreElements()) {
+                ZipEntry zipEntry = entries.nextElement()
+                if (zipEntry.isDirectory()) {
+                    new File(merge, zipEntry.getName()).mkdirs()
+                    continue
+                }
+
+                InputStream ins = zipFile.getInputStream(zipEntry);
+                File sFile = new File(merge, zipEntry.getName())
+                sFile.getParentFile().mkdirs()
+                sFile.createNewFile()
+
+                FileOutputStream fis = new FileOutputStream(sFile);
+                fis.write(ins.getBytes())
+
+            }
+        }
+    }
+}
+
+
+
+mergeJar.dependsOn unzip
+build.dependsOn mergeJar
+
+
+task buildRCore(type: GradleBuild) {
+    buildFile "../rcore/build.gradle"
+    tasks = ['build']
+}
+
+task buildLib(type: GradleBuild) {
+    buildFile "../libs/build.gradle"
+    tasks = ['build']
+}
+
+
+buildRCore.dependsOn buildLib
+preBuild.dependsOn buildRCore

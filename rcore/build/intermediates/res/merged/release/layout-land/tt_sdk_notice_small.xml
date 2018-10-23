@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_width="490dp"
+            android:layout_height="201dp"
+            android:background="@drawable/pop_window_bg"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/tt_sdk_pop_title_bg">
+
+                <TextView
+                    android:id="@+id/popup_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:shadowColor="#000"
+                    android:shadowRadius="1"
+                    android:text="王者荣耀赛事通告"
+                    android:textColor="@color/str_normal_light_black"
+                    android:textSize="@dimen/text_size_t6" />
+
+                <ImageView
+                    android:id="@+id/back_icon"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pop_title_close"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <WebView
+                    android:layout_below="@+id/textView"
+                    android:id = "@+id/webView"
+                    android:layerType="software"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+                </WebView>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

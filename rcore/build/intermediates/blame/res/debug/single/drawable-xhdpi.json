@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tt_sdk_account_button_enable.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xhdpi\\tt_sdk_account_button_enable.9.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tt_sdk_account_button_disable.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xhdpi\\tt_sdk_account_button_disable.9.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pop_window_bg.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xhdpi\\pop_window_bg.9.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tt_sdk_account_input_normal.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xhdpi\\tt_sdk_account_input_normal.9.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tt_sdk_account_input_error.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xhdpi\\tt_sdk_account_input_error.9.png"
+    }
+]

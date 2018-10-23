@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/login_layout_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/tt_sdk_dialog_white_bg_corner"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Title -->
+    <include
+        layout="@layout/tt_sdk_container_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_register_container_height" />
+
+    <LinearLayout
+        android:id="@+id/radio_group_item_register_type"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_40px"
+        android:layout_marginRight="@dimen/margin_40px"
+        android:layout_height="@dimen/register_rbt_height"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_item_register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:textSize="@dimen/text_size_t6"
+            android:drawableBottom="@drawable/tt_sdk_shape_dialog_radio_button_bg_empty"
+            android:gravity="center"
+            android:textColor="@color/tt_sdk_selector_text_color_dialog_register_container_tab_radio_button"
+            android:text="@string/register_by_phone"
+            android:textStyle="normal|bold" />
+
+        <View
+            style="@style/DialogDivider.Vertical"
+            android:background="@color/radio_button_divider"
+            android:layout_gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/radio_item_register_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/tt_sdk_shape_dialog_radio_button_bg_empty"
+            android:drawablePadding="@dimen/margin_6px"
+            android:gravity="center"
+            android:text="@string/register_by_account"
+            android:textStyle="normal|bold"
+            android:textColor="@color/tt_sdk_selector_text_color_dialog_register_container_tab_radio_button"
+            android:textSize="@dimen/text_size_t6" />
+    </LinearLayout>
+
+    <View
+        style="@style/DialogDivider.Horizontal"
+        android:layout_marginBottom="6dp" />
+    <!-- center -->
+    <include
+        android:id="@+id/container_item_register_phone"
+        layout="@layout/tt_sdk_container_item_register_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px" />
+
+    <include
+        android:id="@+id/container_item_register_account"
+        layout="@layout/tt_sdk_container_item_register_account"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px" />
+
+    <!-- Bottom -->
+    <include
+        android:id="@+id/container_item_register_bottom"
+        layout="@layout/tt_sdk_container_item_register_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px"
+        android:layout_marginTop="@dimen/space_8" />
+</LinearLayout>

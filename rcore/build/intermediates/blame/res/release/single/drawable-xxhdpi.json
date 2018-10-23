@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tt_sdk_account_button_disable.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_account_button_disable.9.png"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tt_sdk_account_button_enable.9.png",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable-xxhdpi\\tt_sdk_account_button_enable.9.png"
+    }
+]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_register_container_phone"
+        android:drawableLeft="@drawable/login_icon_phone"
+        android:drawableStart="@drawable/login_icon_phone"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:inputType="number"
+        android:hint="@string/edt_phone_hint"
+        style="@style/DialogEditText"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:imeOptions="actionNext|flagNoExtractUi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_edit_height"
+        android:orientation="horizontal"
+        android:background="@drawable/tt_sdk_edt_bg"
+        android:layout_marginBottom="@dimen/margin_16px">
+        <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+            android:id="@+id/edit_register_container_verification_code"
+            android:drawableLeft="@drawable/login_icon_verificationcode"
+            android:drawableStart="@drawable/login_icon_verificationcode"
+            android:inputType="number"
+            android:hint="@string/input_verification_tips"
+            style="@style/DialogEditText"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:maxLines="1"
+            android:imeOptions="actionNext|flagNoExtractUi" />
+        <Button
+            android:id="@+id/btn_register_container_get_verification_code"
+            android:background="@drawable/tt_sdk_selector_right_btn"
+            android:text="@string/request_get_verification_code"
+            android:textSize="@dimen/right_btn_str_size"
+            android:textColor="@color/dk_gamesdk_white"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_register_container_password"
+        android:digits="@string/register_password_digits"
+        android:drawableLeft="@drawable/login_icon_password"
+        android:drawableStart="@drawable/login_icon_password"
+        android:inputType="textPassword"
+        android:hint="@string/register_password_hint"
+        android:maxLines="1"
+        style="@style/DialogEditText"
+        />
+</LinearLayout>

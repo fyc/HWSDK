@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/bg_translucence">
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/list_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:listSelector="@color/dk_transparent"
+        android:dividerHeight="10dp"
+        android:divider="@color/dk_transparent">
+
+    </ListView>
+    <TextView
+        android:id="@+id/empty_hint"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:gravity="center"
+        android:text="暂无消息"
+        android:textColor="@color/item_text_normal"
+        android:textSize="@dimen/text_size_t3"
+        android:visibility="gone"/>
+</LinearLayout>

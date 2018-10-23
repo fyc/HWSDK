@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_selector_dialog_btn_login.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_selector_dialog_btn_login.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_selector_small_btn_orange.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_selector_small_btn_orange.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_account_button_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_account_button_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_top_corners_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_top_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_radio_button_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_radio_button_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_account_history_list_item_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_account_history_list_item_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_popup_normal_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_popup_normal_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_popup_close_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_popup_close_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_selector_dialog_btn_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_selector_dialog_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_style_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\coupon_style_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_listview_divider.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_listview_divider.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_shape_dialog_btn_orange_disable.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_shape_dialog_btn_orange_disable.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_custom_toast_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_custom_toast_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_game.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\selector_tab_game.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_right_btn_select_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_right_btn_select_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_shape_dialog_btn_login_disable.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_shape_dialog_btn_login_disable.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_pop_title_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_pop_title_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_right_btn_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_right_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_loading_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_loading_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_drawable.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\progress_bar_drawable.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_progress_download.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_progress_download.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_btn_green_normal.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_btn_green_normal.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tz_sdk_radius_unused_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tz_sdk_radius_unused_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_bar_close_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_bar_close_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_edt_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_edt_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_dash_divider.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_dash_divider.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_dialog_white_bg_corner.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_dialog_white_bg_corner.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_menu_item_text_bg_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_menu_item_text_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_selector_small_btn_login.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_selector_small_btn_login.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_checkbox_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tz_sdk_radius_expired_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tz_sdk_radius_expired_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_account.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\selector_tab_account.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gift_get.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\bg_gift_get.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_dialog_edt_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_dialog_edt_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_dialog_bg_round.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_dialog_bg_round.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_selector_right_btn.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_selector_right_btn.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_btn_white_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_btn_white_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_message.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\selector_tab_message.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_bar_refresh_selector.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_bar_refresh_selector.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_text.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\selector_tab_text.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_btn_light_dark.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_btn_light_dark.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_black_corner_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_black_corner_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_radio_button_bg_empty.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_radio_button_bg_empty.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\tt_sdk_shape_dialog_border_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\tt_sdk_shape_dialog_border_bg.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sdk_selector_dialog_btn_orange.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sdk_selector_dialog_btn_orange.xml"
+    },
+    {
+        "merged": "D:\\sdkProject\\HWSDK\\rcore\\build\\intermediates\\res\\merged\\debug\\drawable\\sell_child_bg.xml",
+        "source": "D:\\sdkProject\\HWSDK\\rcore\\src\\main\\res\\drawable\\sell_child_bg.xml"
+    }
+]
