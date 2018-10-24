@@ -70,4 +70,6 @@
     <dimen name="btn_width_160">80dp</dimen>
 
 
+    <!--实名验证-->
+    <dimen name="str_real_name_red_hint_text_size">@dimen/text_size_t5</dimen>
 </resources>

@@ -10,6 +10,7 @@ import com.mobilegamebar.rsdk.outer.util.Log;
 import com.mobilegamebar.rsdk.outer.util.ResourceHelper;
 import com.yiyou.gamesdk.R;
 import com.yiyou.gamesdk.core.ui.dialog.biz.LoginViewController;
+import com.yiyou.gamesdk.core.ui.dialog.biz.RealNameAuthController;
 import com.yiyou.gamesdk.core.ui.dialog.biz.RegisterViewController;
 import com.yiyou.gamesdk.core.ui.dialog.biz.ResetPasswordViewController;
 import com.yiyou.gamesdk.core.ui.widget.ExitAlertDialogView;
@@ -66,6 +67,11 @@ public class ViewControllerNavigator {
         checkParam(params);
         return getDialog(params.getActivityContext())
                 .show(new RegisterViewController(params.getActivityContext(), params));
+    }
+    public boolean toRealNameAuth(IDialogParam params) {
+        checkParam(params);
+        return getDialog(params.getActivityContext())
+                .show(new RealNameAuthController(params.getActivityContext(), params));
     }
 
     public boolean toResetPassword(IDialogParam params) {

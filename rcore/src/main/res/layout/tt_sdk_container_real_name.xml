@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/login_layout_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/tt_sdk_dialog_white_bg_corner"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Title -->
+    <include
+        layout="@layout/tt_sdk_container_item_real_name_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_register_container_height" />
+    <View
+        style="@style/DialogDivider.Horizontal"
+        android:layout_marginBottom="6dp" />
+    <!-- center -->
+    <include
+        android:id="@+id/container_item_register_phone"
+        layout="@layout/tt_sdk_container_item_real_name_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px" />
+
+    <include
+        android:id="@+id/container_item_register_account"
+        layout="@layout/tt_sdk_container_item_register_account"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px" />
+
+    <!-- Bottom -->
+    <include
+        android:id="@+id/container_item_register_bottom"
+        layout="@layout/tt_sdk_container_item_real_name_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"
+        android:layout_marginLeft="@dimen/margin_32px"
+        android:layout_marginRight="@dimen/margin_32px"
+        android:layout_marginTop="@dimen/space_8" />
+</LinearLayout>

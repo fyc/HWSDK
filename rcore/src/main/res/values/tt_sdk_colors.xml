@@ -131,4 +131,5 @@
     <color name="login_gray">#a7a7a7</color>
     <color name="login_blue">#09b0dd</color>
     <color name="login_white">#ffffff</color>
+    <color name="real_name_title_bg">#F4F5F9</color>
 </resources>

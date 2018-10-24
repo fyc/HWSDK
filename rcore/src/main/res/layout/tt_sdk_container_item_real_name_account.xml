@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/login_red"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:textSize="@dimen/str_real_name_red_hint_text_size"
+        android:text="@string/str_real_name_red_hint" />
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_real_name_container_name"
+        android:drawableLeft="@drawable/login_icon_user"
+        android:drawableStart="@drawable/login_icon_user"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:hint="@string/edt_real_name_hint"
+        style="@style/DialogEditText"
+        android:maxLines="1"
+        android:imeOptions="actionNext|flagNoExtractUi" />
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_real_name_container_id_card"
+        style="@style/DialogEditText"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:drawableLeft="@drawable/login_icon_verificationcode"
+        android:drawableStart="@drawable/login_icon_verificationcode"
+        android:hint="@string/edt_id_card_hint"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="number"
+        android:maxLength="11"
+        android:maxLines="1" />
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_real_name_container_card_number"
+        android:digits="@string/account_digits"
+        android:drawableLeft="@drawable/login_icon_password"
+        android:drawableStart="@drawable/login_icon_password"
+        android:inputType="number"
+        android:hint="@string/edt_id_card_number_hint"
+        android:maxLines="1"
+        style="@style/DialogEditText"
+        />
+
+</LinearLayout>

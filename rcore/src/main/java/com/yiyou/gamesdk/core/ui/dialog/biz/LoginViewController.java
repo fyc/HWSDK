@@ -49,6 +49,7 @@ public class LoginViewController extends BaseAuthViewController {
 
     private Button loginButton;
     private View backRegisterButton;
+    View btnRealNameAuth;
 //    private View resetPasswordBtn;
     private EditText verificationCodeEdit;
     private Button getVerificationCodeButton;
@@ -98,6 +99,7 @@ public class LoginViewController extends BaseAuthViewController {
         titleImg = findViewById(R.id.img_title_container_title);
 //        resetPasswordBtn = findViewById(R.id.btn_login_container_forget_password);
         backRegisterButton = findViewById(R.id.btn_login_container_back_register);
+        btnRealNameAuth = findViewById(R.id.btn_login_container_register_the_terms_of_service);
         accountEdit = (DrawableEditText) findViewById(R.id.edit_login_container_account);
         accountEditViewController = new AccountEditViewController(accountEdit);
         accountEditViewController.noRightDrawableSate();
@@ -252,6 +254,13 @@ public class LoginViewController extends BaseAuthViewController {
             public void onClick(View view) {
                 IMEUtil.hideIME(LoginViewController.this);
                 ViewControllerNavigator.getInstance().toRegister(getDialogParam());
+            }
+        });
+        btnRealNameAuth.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                IMEUtil.hideIME(LoginViewController.this);
+                ViewControllerNavigator.getInstance().toRealNameAuth(getDialogParam());
             }
         });
 //        resetPasswordBtn.setOnClickListener(new OnClickListener() {
