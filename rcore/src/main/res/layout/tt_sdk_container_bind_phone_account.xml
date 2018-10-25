@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:gravity="center"
+        android:text="@string/str_bind_phone_tips"
+        android:textColor="@color/d_gray_2"
+        android:textSize="@dimen/text_size_t3" />
+
+    <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+        android:id="@+id/edit_bind_phone_container_account"
+        style="@style/DialogEditText"
+        android:digits="@string/account_digits"
+        android:drawableLeft="@drawable/login_icon_phone"
+        android:drawableStart="@drawable/login_icon_phone"
+        android:hint="@string/edit_bind_phone_number_hint"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="number"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_edit_height"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:layout_marginTop="@dimen/margin_16px"
+        android:background="@drawable/tt_sdk_edt_bg"
+        android:orientation="horizontal">
+
+        <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
+            android:id="@+id/edit_bind_phone_container_verification_code"
+            style="@style/DialogEditText"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@null"
+            android:drawableLeft="@drawable/login_icon_verificationcode"
+            android:drawableStart="@drawable/login_icon_verificationcode"
+            android:hint="@string/input_verification_tips"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_bind_phone_container_get_verification_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tt_sdk_selector_right_btn"
+            android:text="@string/request_get_verification_code"
+            android:textColor="@color/dk_gamesdk_white"
+            android:textSize="@dimen/right_btn_str_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_bind_phone_container_bind"
+        style="@style/DialogConfirmButton"
+        android:layout_marginTop="@dimen/margin_32px"
+        android:background="@drawable/sdk_selector_dialog_btn_login"
+        android:text="@string/str_bind_phone_button" />
+
+</LinearLayout>

@@ -9,7 +9,7 @@
 
     <!-- Title -->
     <include
-        layout="@layout/tt_sdk_container_item_real_name_title"
+        layout="@layout/tt_sdk_container_item_title2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialog_title_register_container_height" />
     <View

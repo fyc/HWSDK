@@ -9,7 +9,7 @@
         android:gravity="center"
         android:textColor="@color/login_red"
         android:layout_marginBottom="@dimen/margin_16px"
-        android:textSize="@dimen/str_real_name_red_hint_text_size"
+        android:textSize="@dimen/text_size_t3"
         android:text="@string/str_real_name_red_hint" />
     <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
         android:id="@+id/edit_real_name_container_name"
@@ -25,12 +25,11 @@
         android:id="@+id/edit_real_name_container_id_card"
         style="@style/DialogEditText"
         android:layout_marginBottom="@dimen/margin_16px"
+        android:enabled="false"
         android:drawableLeft="@drawable/login_icon_verificationcode"
         android:drawableStart="@drawable/login_icon_verificationcode"
         android:hint="@string/edt_id_card_hint"
         android:imeOptions="actionNext|flagNoExtractUi"
-        android:inputType="number"
-        android:maxLength="11"
         android:maxLines="1" />
     <com.yiyou.gamesdk.core.ui.widget.DrawableEditText
         android:id="@+id/edit_real_name_container_card_number"

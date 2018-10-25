@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley1.AuthFailureError;
 import com.mobilegamebar.rsdk.outer.IOperateCallback;
 import com.mobilegamebar.rsdk.outer.consts.TTCodeDef;
 import com.mobilegamebar.rsdk.outer.util.Log;
@@ -25,6 +26,8 @@ import com.yiyou.gamesdk.core.base.http.utils.HttpUtils;
 import com.yiyou.gamesdk.core.base.http.utils.Urlpath;
 import com.yiyou.gamesdk.core.base.http.volley.HwAppRequest;
 import com.yiyou.gamesdk.core.base.http.volley.HwRequest;
+import com.yiyou.gamesdk.core.base.http.volley.QtRequest;
+import com.yiyou.gamesdk.core.base.http.volley.bean.VerifyCodeBean;
 import com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener;
 import com.yiyou.gamesdk.core.consts.StatusCodeDef;
 import com.yiyou.gamesdk.core.memcache.LoginInfo;
@@ -144,6 +147,26 @@ class AuthManager implements IAuthApi {
             TaoziSignUtils.addSign(params);
         }
         HwRequest request = new HwRequest<>(Urlpath.GET_PHONE_VERIFY_CODE, params, null, callback);
+        Log.d(TAG, "requestVerificationCode:Urlpath.GET_PHONE_VERIFY_CODE");
+        RequestManager.getInstance(CoreManager.getContext()).addRequest(request, null);
+    }
+    @Override
+    public void requestVerificationCode2(String phone, int type, int retry, TtRespListener<VerifyCodeBean> callback) {
+        Map<String, String> params = new TreeMap<>();
+//        String game_id = String.valueOf(ApiFacade.getInstance().getCurrentGameID() + "");
+        String game_id = QtRequest.GAMW_ID;
+        String ctime = String.valueOf(System.currentTimeMillis()/1000);
+        params.put("mobile_phone", phone);
+        params.put("game_id", game_id);
+        params.put("ctime", ctime);
+        String src = String.format("ctime=%s&game_id=%s&mobile_phone=%s",ctime,game_id,phone);
+        params.put("src",src);
+        QtRequest request = new QtRequest<>(Urlpath.GET_PHONE_VERIFY_CODE, params, VerifyCodeBean.class, callback);
+        try {
+            Log.d(TAG, "requestVerificationCode:requestHeader:"+request.getHeaders().toString());
+        } catch (AuthFailureError authFailureError) {
+            authFailureError.printStackTrace();
+        }
         RequestManager.getInstance(CoreManager.getContext()).addRequest(request, null);
     }
 

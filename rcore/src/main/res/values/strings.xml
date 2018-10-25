@@ -158,8 +158,15 @@
     <string name="game_package_get_limit_hint" formatted="false">满%s元可领</string>
 
     <!--实名认证-->
+    <string name="str_real_name_title">账号绑定</string>
     <string name="str_real_name_red_hint">根据国家规定，游戏用户需要进行实名验证</string>
     <string name="edt_real_name_hint">请输入真实姓名</string>
     <string name="edt_id_card_hint">身份证</string>
     <string name="edt_id_card_number_hint">输入证件号</string>
+
+    <!--绑定手机-->
+    <string name="str_bind_phone_title">账号绑定</string>
+    <string name="edit_bind_phone_number_hint">请输入绑定手机号码</string>
+    <string name="str_bind_phone_button">绑定账号</string>
+    <string name="str_bind_phone_tips">为了游客状态安全，请绑定一个号码</string>
 </resources>

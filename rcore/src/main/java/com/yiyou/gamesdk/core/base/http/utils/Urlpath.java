@@ -19,7 +19,8 @@ public class Urlpath {
      */
 //    public static final String OUTER_TEST_HEAD = "https://sdktest.52hwgame.com:8001/sdk.server";
     public static final String APP_OUTER_TEST_HEAD = "https://api.52hwgame.com";
-    public static final String OUTER_TEST_HEAD = "http://192.168.0.115:8001/sdk.server";
+//    public static final String OUTER_TEST_HEAD = "http://192.168.0.115:8001/sdk.server";
+    public static final String OUTER_TEST_HEAD = "http://192.168.0.157:8080/sdkserver";
 
     /**
      * 线上环境
@@ -59,7 +60,11 @@ public class Urlpath {
     /**
      * 获取手机验证码
      */
-    public static final String GET_PHONE_VERIFY_CODE = HEAD + "/rest/vcode/get.view";
+//    public static final String GET_PHONE_VERIFY_CODE = HEAD + "/rest/vcode/get.view";
+    /**
+     * 获取手机验证码
+     */
+    public static final String GET_PHONE_VERIFY_CODE = HEAD + "/rest/user/get_vcode";
 
     /**
      * 账号登录

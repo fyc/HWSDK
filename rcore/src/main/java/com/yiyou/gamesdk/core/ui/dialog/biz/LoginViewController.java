@@ -11,9 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.mobilegamebar.rsdk.outer.event.IDialogParam;
+import com.mobilegamebar.rsdk.outer.util.Log;
+import com.mobilegamebar.rsdk.outer.util.ResourceHelper;
+import com.mobilegamebar.rsdk.outer.util.StringUtils;
 import com.yiyou.gamesdk.R;
 import com.yiyou.gamesdk.core.api.ApiFacade;
 import com.yiyou.gamesdk.core.api.def.IAuthApi;
+import com.yiyou.gamesdk.core.base.http.volley.bean.VerifyCodeBean;
 import com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener;
 import com.yiyou.gamesdk.core.consts.StatusCodeDef;
 import com.yiyou.gamesdk.core.ui.dialog.ViewControllerNavigator;
@@ -22,10 +27,6 @@ import com.yiyou.gamesdk.core.ui.widget.DrawableEditText;
 import com.yiyou.gamesdk.core.ui.widget.StandardDialog;
 import com.yiyou.gamesdk.model.AccountHistoryInfo;
 import com.yiyou.gamesdk.model.AuthModel;
-import com.mobilegamebar.rsdk.outer.event.IDialogParam;
-import com.mobilegamebar.rsdk.outer.util.Log;
-import com.mobilegamebar.rsdk.outer.util.ResourceHelper;
-import com.mobilegamebar.rsdk.outer.util.StringUtils;
 import com.yiyou.gamesdk.util.IMEUtil;
 import com.yiyou.gamesdk.util.ToastUtils;
 import com.yiyou.gamesdk.util.ViewUtils;
@@ -47,19 +48,20 @@ public class LoginViewController extends BaseAuthViewController {
     };
 
 
-    private Button loginButton;
-    private View backRegisterButton;
-    View btnRealNameAuth;
-//    private View resetPasswordBtn;
-    private EditText verificationCodeEdit;
-    private Button getVerificationCodeButton;
+    private Button loginButton; //登录按钮
+    private View backRegisterButton; //跳转至注册
+    View btnRealNameAuth; //用于测试跳转实名验证
+    //    private View resetPasswordBtn;
+    private EditText verificationCodeEdit; //验证码
+    private Button getVerificationCodeButton; //获取验证码
     private View titleImg;
     private TextView titleTv;
-    private DrawableEditText accountEdit;
-//    private EditText passwordEdit;
+    private DrawableEditText accountEdit; //输入号码框
+    //    private EditText passwordEdit;
     private TextView backTitleContainerBtn;
     private TextView closeTitleContainerBtn;
 
+    TextView btn_login_container_visitors_to_login;//游客登录
 
     private AccountEditViewController accountEditViewController;
     private HistoryPickerController historyPickerController;
@@ -93,9 +95,9 @@ public class LoginViewController extends BaseAuthViewController {
     }
 
     private void initView() {
-        loginButton = (Button)findViewById(R.id.btn_login_container_login);
+        loginButton = (Button) findViewById(R.id.btn_login_container_login);
         ViewUtils.setViewEnable(loginButton, false);
-        titleTv = (TextView)findViewById(R.id.tv_title_container_title);
+        titleTv = (TextView) findViewById(R.id.tv_title_container_title);
         titleImg = findViewById(R.id.img_title_container_title);
 //        resetPasswordBtn = findViewById(R.id.btn_login_container_forget_password);
         backRegisterButton = findViewById(R.id.btn_login_container_back_register);
@@ -109,9 +111,10 @@ public class LoginViewController extends BaseAuthViewController {
         getVerificationCodeButton = (Button) findViewById(R.id.btn_login_container_get_verification_code);
         ViewUtils.setViewEnable(getVerificationCodeButton, false);
         reGetVerifyCodeButtonController = new ReGetVerifyCodeButtonController(getVerificationCodeButton);
+        btn_login_container_visitors_to_login = (TextView) findViewById(R.id.btn_login_container_visitors_to_login);
 
-        backTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_back);
-        closeTitleContainerBtn = (TextView)findViewById(R.id.btn_title_container_close);
+        backTitleContainerBtn = (TextView) findViewById(R.id.btn_title_container_back);
+        closeTitleContainerBtn = (TextView) findViewById(R.id.btn_title_container_close);
         backTitleContainerBtn.setVisibility(GONE);
         titleImg.setVisibility(VISIBLE);
         titleTv.setVisibility(GONE);
@@ -173,7 +176,6 @@ public class LoginViewController extends BaseAuthViewController {
                 }
             }
         });
-
 
 
         historyPickerController.setDataPickListener(new DataPicker.DataPickerListener<AccountHistoryWrapper>() {
@@ -270,6 +272,14 @@ public class LoginViewController extends BaseAuthViewController {
 //                ViewControllerNavigator.getInstance().toResetPassword(getDialogParam());
 //            }
 //        });
+        btn_login_container_visitors_to_login.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                IMEUtil.hideIME(LoginViewController.this);
+//                ViewControllerNavigator.getInstance().toResetPassword(getDialogParam());
+                ViewControllerNavigator.getInstance().toBindPhone(getDialogParam());
+            }
+        });
 //        ViewUtils.bindEditWithButton(passwordEdit, loginButton);
 
 //        addTextWatcher(accountEdit, passwordEdit);
@@ -296,8 +306,9 @@ public class LoginViewController extends BaseAuthViewController {
             }
         });
     }
-    private void addTextWatcher(EditText... editTexts ){
-        for (final EditText editText : editTexts){
+
+    private void addTextWatcher(EditText... editTexts) {
+        for (final EditText editText : editTexts) {
             editText.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -318,10 +329,10 @@ public class LoginViewController extends BaseAuthViewController {
     }
 
 
-    private void updateLoginButtonState(){
-        if (accountEdit.length() == 0 ){
+    private void updateLoginButtonState() {
+        if (accountEdit.length() == 0 || verificationCodeEdit.length() == 0) {
             ViewUtils.setViewEnable(loginButton, false);
-        }else {
+        } else {
             ViewUtils.setViewEnable(loginButton, true);
         }
     }
@@ -333,11 +344,11 @@ public class LoginViewController extends BaseAuthViewController {
      */
     private void getVerificationCodeButtonImpl(String phone) {
         showLoading();
-        ApiFacade.getInstance().requestVerificationCode(phone, IAuthApi.VCODE_TYPE_REGISTER, retryTime,new TtRespListener<Void>() {
+        ApiFacade.getInstance().requestVerificationCode2(phone, IAuthApi.VCODE_TYPE_REGISTER, retryTime, new TtRespListener<VerifyCodeBean>() {
             @Override
-            public void onNetSucc(String url, Map<String, String> params, Void result) {
+            public void onNetSucc(String url, Map<String, String> params, VerifyCodeBean result) {
                 hideLoading();
-                retryTime ++;
+                retryTime++;
                 if (params != null) {
                     waitingVerifyCode = true;
                     Log.d(TAG, "success request verify code ");
@@ -366,7 +377,7 @@ public class LoginViewController extends BaseAuthViewController {
     private void loginImpl(String account, String password) {
         loginButton.setEnabled(false);
         showLoading();
-        ApiFacade.getInstance().login(account,password,new TtRespListener<AuthModel>() {
+        ApiFacade.getInstance().login(account, password, new TtRespListener<AuthModel>() {
             @Override
             public void onNetworkComplete() {
                 loginButton.setEnabled(true);
@@ -394,7 +405,6 @@ public class LoginViewController extends BaseAuthViewController {
     }
 
 
-
     private void onLoginFail() {
         hideLoading();
     }
@@ -415,7 +425,7 @@ public class LoginViewController extends BaseAuthViewController {
             autoFillCache = historyInfo.username;
             accountEdit.setText(historyInfo.username);
             accountEdit.setSelection(historyInfo.username.length());
-        }else {
+        } else {
             autoFillCache = historyInfo.phone;
             accountEdit.setText(historyInfo.phone);
             accountEdit.setSelection(historyInfo.phone.length());
@@ -450,7 +460,7 @@ public class LoginViewController extends BaseAuthViewController {
             //什么都没得填
             cleanInputs();
         }
-        
+
         //有一键注册账号就填一键注册账号
 //        Pair<String, String> lastAutoRegisterInfo
 //                = ApiFacade.getInstance().getLastAutoRegisterInfo();
@@ -470,7 +480,7 @@ public class LoginViewController extends BaseAuthViewController {
             pwd = ApiFacade.getInstance().getPasswordFromHistoryByPhone(usernameOrPhone);
         }
 
-        if (StringUtils.isBlank(pwd)){
+        if (StringUtils.isBlank(pwd)) {
             Log.i(TAG, "fail to get pwd from history.");
 //            passwordEdit.setText("");
         } else {
@@ -555,10 +565,9 @@ public class LoginViewController extends BaseAuthViewController {
         }
 
 
-
         private void showNewDataPicker(List<AccountHistoryWrapper> data) {
             int height = (int) (ViewUtils.distanceToScreenBottom(anchor) * 0.6f);
-            int width = (int) (anchor.getWidth() );
+            int width = (int) (anchor.getWidth());
 //            int dx = (int) ((anchor.getWidth() - width) / 2.0f);
             picker = new DataPicker<AccountHistoryWrapper>(getContext(), width, height, true);
             picker.setDataSource(data);

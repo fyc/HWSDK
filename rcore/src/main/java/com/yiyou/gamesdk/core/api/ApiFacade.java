@@ -21,6 +21,7 @@ import com.yiyou.gamesdk.core.api.def.IReportApi;
 import com.yiyou.gamesdk.core.api.def.ISecurityApi;
 import com.yiyou.gamesdk.core.api.def.IUpgradeApi;
 import com.yiyou.gamesdk.core.api.impl.ApiLoader;
+import com.yiyou.gamesdk.core.base.http.volley.bean.VerifyCodeBean;
 import com.yiyou.gamesdk.core.base.http.volley.listener.FileDownListener;
 import com.yiyou.gamesdk.core.base.http.volley.listener.TtRespListener;
 import com.yiyou.gamesdk.model.AccountHistoryInfo;
@@ -189,6 +190,10 @@ public class ApiFacade implements IApiFacade {
     @Override
     public void requestVerificationCode(String phone, int type, int retry, TtRespListener<Void> callback) {
         authApi().requestVerificationCode(phone,type,retry,callback);
+    }
+    @Override
+    public void requestVerificationCode2(String phone, int type, int retry, TtRespListener<VerifyCodeBean> callback) {
+        authApi().requestVerificationCode2(phone,type,retry,callback);
     }
 
     @Override
